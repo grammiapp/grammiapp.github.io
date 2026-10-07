@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Calculadora de calorías y proteínas: tu objetivo diario · Grammi</title>
+<meta name="description" content="Calculadora gratis de calorías y proteínas: calorías diarias, proteínas, carbohidratos y grasas según tu edad, altura, peso, actividad y objetivo.">
+<link rel="canonical" href="https://grammiapp.com/es/calculadora/"><link rel="alternate" hreflang="en" href="https://grammiapp.com/calculator/"><link rel="alternate" hreflang="es" href="https://grammiapp.com/es/calculadora/"><link rel="alternate" hreflang="tr" href="https://grammiapp.com/tr/hesaplayici/"><link rel="alternate" hreflang="x-default" href="https://grammiapp.com/calculator/">
+<meta name="apple-itunes-app" content="app-id=6815835582">
+<meta property="og:type" content="website"><meta property="og:title" content="Calculadora de calorías y proteínas: tu objetivo diario · Grammi"><meta property="og:description" content="Calculadora gratis de calorías y proteínas: calorías diarias, proteínas, carbohidratos y grasas según tu edad, altura, peso, actividad y objetivo.">
+<meta property="og:url" content="https://grammiapp.com/es/calculadora/"><meta property="og:image" content="https://grammiapp.com/icon.png">
+<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<style>
+:root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
+:root[data-theme="dark"]{--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans Arabic",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none;font-weight:800;font-size:20px}
+.brand img{width:44px;height:44px;border-radius:11px}
+select{font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 10px;max-width:100%}
+h1{font-size:34px;line-height:1.15;margin:8px 0 6px;letter-spacing:-.01em}
+h2{font-size:19px;margin:28px 0 8px}
+.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:14px 0}
+.lead{font-size:19px;font-weight:600;background:var(--accent-soft);border:0}
+ul{padding-inline-start:20px;margin:6px 0}li{margin:6px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;list-style:none}summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:inline-end;color:var(--accent);font-weight:800}details[open] summary::after{content:"–"}
+details p{margin:10px 0 0}
+a{color:var(--accent)}
+.mail{display:inline-block;margin-top:6px;font-weight:700;font-size:18px;word-break:break-all}
+nav.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:15px}
+.hero{text-align:center;padding:24px 0 8px}.hero img{width:128px;height:128px;border-radius:29px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.hero h1{font-size:40px;margin-top:18px}.points{list-style:none;padding:0;display:grid;gap:10px;margin:22px 0}
+.points li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-weight:600}
+.points li::before{content:"✓";color:var(--accent);font-weight:800;margin-inline-end:10px}
+.badge{text-decoration:none;display:inline-block;background:var(--ink);color:var(--bg);border-radius:12px;padding:10px 18px;font-weight:700}
+[hidden]{display:none!important}
+
+header{margin-bottom:18px}
+nav.top{flex-basis:100%;display:flex;gap:6px 14px;flex-wrap:wrap;font-size:15px;font-weight:700}
+nav.top a{text-decoration:none}nav.top a[aria-current]{color:var(--ink)}
+.langs{font-size:14px;display:flex;gap:10px}.langs a{text-decoration:none;font-weight:700}.langs span{color:var(--muted);font-weight:700}
+.crumbs{font-size:14px;color:var(--muted);margin:0 0 4px}.crumbs a{text-decoration:none}
+h1{font-size:30px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:end;white-space:nowrap}
+th{font-size:13px;color:var(--muted);font-weight:700}
+th:first-child,td:first-child{text-align:start;white-space:normal}
+td.sub{padding-inline-start:18px;color:var(--muted)}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:var(--line)}
+.bar i{display:block}.c1{background:var(--accent)}.c2{background:#E0A43A}.c3{background:#C8664A}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;font-weight:600}
+.legend b{display:inline-block;width:10px;height:10px;border-radius:3px;margin-inline-end:6px}
+.cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:10px 0}
+.cmp a{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.cmp a span{display:block;color:var(--muted);font-size:14px}
+.cta{text-align:center;background:var(--accent-soft);border:0;margin-top:30px}
+.cta h2{margin:4px 0 6px}.cta p{margin:0 0 14px}
+.src{font-size:14px;color:var(--muted)}
+.az h2{font-size:17px;margin:22px 0 4px;color:var(--accent)}
+.az ul{list-style:none;padding:0;margin:0}.az li{margin:0;border-bottom:1px solid var(--line)}
+.az a{display:flex;justify-content:space-between;gap:12px;padding:9px 2px;text-decoration:none;color:var(--ink)}
+.az a span{color:var(--muted);font-size:14px;white-space:nowrap}
+.pill{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 14px;margin:4px 4px 0 0;font-weight:700;text-decoration:none}
+button,.btn{font:inherit;font-weight:700;border:0;border-radius:12px;padding:12px 18px;background:var(--accent);color:var(--on-accent);cursor:pointer}
+:root{--on-accent:#fff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--on-accent:#0F1512}}:root[data-theme="dark"]{--on-accent:#0F1512}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 6px}
+.opt{font-size:22px;padding:18px 6px;background:var(--card);color:var(--ink);border:2px solid var(--line);font-variant-numeric:tabular-nums;min-height:64px}
+.opt:hover:not([disabled]){border-color:var(--accent)}.opt[disabled]{opacity:1;cursor:default}.opt.dim{opacity:.4}
+.opt.b0{background:#2F9E5A;border-color:#2F9E5A;color:#fff}.opt.b1{background:#F2C94C;border-color:#F2C94C;color:#1B2A21}
+.opt.b2{background:#F2994A;border-color:#F2994A;color:#1B2A21}.opt.b3{background:#8C9590;border-color:#8C9590;color:#fff}
+button[disabled]{opacity:.45;cursor:default}
+button.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+input[type=number]{font:inherit;font-size:20px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:100%;max-width:100%}
+input[type=range]{width:100%;accent-color:var(--accent);margin:14px 0}
+select{font-size:17px;padding:10px 36px 10px 12px;width:100%;-webkit-appearance:none;appearance:none;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238C9590' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center}
+#rates{display:grid;grid-template-columns:repeat(5,1fr)}#rates label{min-width:0;padding:9px 2px}
+label{font-weight:700;font-size:15px}
+.row{display:flex;gap:10px;align-items:flex-end}.row>*{flex:1;min-width:0}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+.seg label{flex:1 1 auto;font-weight:600;text-align:center;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 8px;cursor:pointer;min-width:56px}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.seg label:has(input:focus-visible){outline:2px solid var(--accent)}
+.aims{display:grid;gap:8px;margin:6px 0}
+.aims label{display:block;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 14px;cursor:pointer;font-weight:700}
+.aims label small{display:block;color:var(--muted);font-weight:500;font-size:14px}
+.aims label:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.aims input{position:absolute;opacity:0;pointer-events:none}
+.field{margin:12px 0}
+.big{font-size:52px;font-weight:800;line-height:1.05;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.macros3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 6px;text-align:center}
+.macros3 div{background:var(--bg);border-radius:12px;padding:10px 4px}.macros3 b{display:block;font-size:22px}
+.center{text-align:center}
+.food-emoji{font-size:64px;line-height:1.1}
+.qname{font-size:24px;font-weight:800;margin:6px 0 0}
+.portion{color:var(--muted);font-weight:600}
+.reveal{font-size:20px;font-weight:700;margin:14px 0 4px}
+.squares{font-size:30px;letter-spacing:4px;margin:8px 0}
+.list{list-style:none;padding:0;margin:12px 0;text-align:start}.list li{display:flex;gap:10px;align-items:baseline;border-bottom:1px solid var(--line);padding:8px 0;margin:0}
+.list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
+.progress{color:var(--muted);font-weight:700;font-size:14px}
+@media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
+</style></head><body><div class="wrap">
+<header><a class="brand" href="/?lang=es"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/calculator/" hreflang="en" lang="en">EN</a><span>ES</span><a href="/tr/hesaplayici/" hreflang="tr" lang="tr">TR</a></div>
+<nav class="top"><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/" aria-current="page">Calculadora</a></nav></header>
+<main><h1>🧮 Calculadora de calorías y proteínas</h1><p class="muted">Calcula cuántas calorías comer al día y cuánta proteína, carbohidratos y grasa te tocan, con la misma fórmula que usa Grammi para tu primer objetivo.</p><form id="calc" class="card" onsubmit="return false">
+<div class="seg" role="radiogroup"><label><input type="radio" name="units" value="metric" checked>Métrico</label><label><input type="radio" name="units" value="imperial">Imperial</label></div>
+<h2>Sobre ti</h2>
+<div class="seg" role="radiogroup" aria-label="Sexo"><label><input type="radio" name="sex" value="female" checked>Mujer</label><label><input type="radio" name="sex" value="male">Hombre</label></div>
+<div class="field"><label for="age">Edad</label><input type="number" id="age" name="age" value="30" min="13" max="100" step="1" inputmode="numeric"></div>
+<div class="field" id="hm"><label for="cm">Altura (cm)</label><input type="number" id="cm" name="cm" value="170" min="120" max="230" step="1" inputmode="numeric"></div>
+<div class="field row" id="hi"><div><label for="ft">Altura (ft)</label><input type="number" id="ft" name="ft" value="5" min="3" max="7" step="1" inputmode="numeric"></div><div><label for="in">(in)</label><input type="number" id="in" name="in" value="7" min="0" max="11" step="1" inputmode="numeric"></div></div>
+<div class="field" id="wm"><label for="kg">Peso (kg)</label><input type="number" id="kg" name="kg" value="70" min="30" max="300" step="0.5" inputmode="decimal"></div>
+<div class="field" id="wi"><label for="lb">Peso (lb)</label><input type="number" id="lb" name="lb" value="154" min="66" max="662" step="1" inputmode="numeric"></div>
+<h2>Movimiento diario</h2>
+<select name="activity" aria-label="Actividad"><option value="sedentary">Sobre todo sentado</option><option value="light" selected>Poco activo</option><option value="moderate">Moderadamente activo</option><option value="active">Muy activo</option></select>
+<h2>¿Qué buscas?</h2>
+<div class="aims" role="radiogroup"><label><input type="radio" name="aim" value="lose">Perder peso<small>Menos calorías, proteína alta</small></label><label><input type="radio" name="aim" value="gainLean">Ganar músculo<small>Un pequeño superávit con mucha proteína</small></label><label><input type="radio" name="aim" value="gain">Ganar peso<small>Un superávit mayor</small></label><label><input type="radio" name="aim" value="maintain" checked>Mantenerme igual<small>Mantén tu peso estable</small></label></div>
+<h2>Ritmo · <span id="rateunit" class="muted"></span></h2>
+<div class="seg" id="rates" role="radiogroup" aria-label="Ritmo"></div>
+</form>
+<div id="out" class="card center" aria-live="polite"><noscript><p>La calculadora necesita JavaScript.</p></noscript><p id="bad" hidden></p><div id="res"><h2 style="margin-top:4px">Tu objetivo diario</h2>
+<div class="big" id="outk">–</div><div class="muted">kcal al día</div>
+<div class="macros3"><div><b id="outp">–</b>Proteínas</div><div><b id="outc">–</b>Carbohidratos</div><div><b id="outf">–</b>Grasas</div></div>
+<ul class="muted" id="outd" style="text-align:start"></ul></div></div><p class="src">Es una estimación inicial con una fórmula estándar, no un consejo médico. Cada cuerpo es distinto: registra lo que comes y tu peso unas semanas y ajusta. Si estás embarazada, tienes menos de 18 años o una condición de salud, consulta a un médico o nutricionista.</p><h2>Cómo funciona</h2><div class="card"><ul><li>El gasto en reposo usa la ecuación de Mifflin-St Jeor: 10 × peso (kg) + 6,25 × altura (cm) − 5 × edad, y luego +5 en hombres o −161 en mujeres.</li><li>El movimiento diario lo multiplica: sobre todo sentado ×1,2, poco activo ×1,375, moderadamente activo ×1,55, muy activo ×1,725.</li><li>Tu objetivo lo ajusta: 1 kg de peso corporal equivale a unas 7700 kcal, repartidas en una semana. El objetivo nunca baja de 1200 kcal.</li><li>La proteína sale de tu peso: 1,8 g/kg para perder peso, 2 g/kg para ganar músculo, 1,6 g/kg en los demás casos. La grasa es el 25 % de las calorías y los carbohidratos completan el resto.</li></ul></div></main>
+<div class="card cta"><h2>Cumple tu objetivo con Grammi</h2><p class="muted">Escaneo de códigos gratis, sin anuncios y sin cuenta. Tu diario se queda en tu iPhone.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_calc&amp;mt=8">Descarga Grammi en el App Store</a></div>
+<nav class="links"><a href="/?lang=es">Grammi</a><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/">Calculadora</a><a href="/privacy.html?lang=es">Privacidad</a><a href="/support.html?lang=es">Ayuda</a></nav>
+</div><script>/*CORE*/
+var ACT = {"sedentary": 1.2, "light": 1.375, "moderate": 1.55, "active": 1.725}, AIM = {"lose": [-0.5, 1.8], "gainLean": [0.25, 2.0], "gain": [0.25, 1.6], "maintain": [0.0, 1.6]}, LB = 2.2046226218, IN = 2.54, KPK = 7700.0, FLOOR = 1200.0;
+var PACES = { metric: [-0.75, -0.5, -0.25, 0, 0.25], imperial: [-1.5, -1.0, -0.5, 0, 0.5] };
+function paceOptionsKg(units) { return units === "imperial" ? PACES.imperial.map(function (x) { return x / LB; }) : PACES.metric.slice(); }
+function nearestPace(kg, opts) { var b = opts[0]; for (var i = 1; i < opts.length; i++) if (Math.abs(opts[i] - kg) < Math.abs(b - kg)) b = opts[i]; return b; }
+function heightCm(units, cm, ft, inch) { return units === "imperial" ? (ft * 12 + inch) * IN : cm; }
+function weightKg(units, kg, lb) { return units === "imperial" ? lb / LB : kg; }
+function plausible(p) { return p.age >= 13 && p.age <= 100 && p.heightCm >= 120 && p.heightCm <= 230 && p.weightKg >= 30 && p.weightKg <= 300; }
+function target(p) {
+  var base = 10 * p.weightKg + 6.25 * p.heightCm - 5 * p.age;
+  var bmr = p.sex === "male" ? base + 5 : base - 161;
+  var expenditure = bmr * ACT[p.activity];
+  var shift = p.paceKg * KPK / 7;
+  var kcal = Math.max(FLOOR, Math.round(expenditure + shift));
+  var protein = Math.round(p.weightKg * AIM[p.aim][1]);
+  var fat = Math.round(kcal * 0.25 / 9);
+  var carbs = Math.round(Math.max(0, (kcal - protein * 4 - fat * 9) / 4));
+  return { kcal: kcal, protein: protein, carbs: carbs, fat: fat, bmr: bmr, expenditure: expenditure, shift: shift };
+}
+/*END*/
+(function(){
+var S = {"title": "Calculadora de calorías y proteínas: tu objetivo diario · Grammi", "h1": "Calculadora de calorías y proteínas", "desc": "Calculadora gratis de calorías y proteínas: calorías diarias, proteínas, carbohidratos y grasas según tu edad, altura, peso, actividad y objetivo.", "intro": "Calcula cuántas calorías comer al día y cuánta proteína, carbohidratos y grasa te tocan, con la misma fórmula que usa Grammi para tu primer objetivo.", "metric": "Métrico", "imperial": "Imperial", "cm": "cm", "kg": "kg", "lb": "lb", "ft": "ft", "inch": "in", "res_h": "Tu objetivo diario", "protein": "Proteínas", "carbs": "Carbohidratos", "fat": "Grasas", "d_bmr": "Gasto en reposo (Mifflin-St Jeor): {v} kcal", "d_exp": "Con tu movimiento diario (×{f}): {v} kcal", "d_shift": "Ajuste por objetivo: {v} kcal al día", "d_floor": "El objetivo se queda en el mínimo de 1200 kcal.", "bad_metric": "Escribe una edad de 13 a 100 años, una altura de 120 a 230 cm y un peso de 30 a 300 kg.", "bad_imperial": "Escribe una edad de 13 a 100 años, una altura de 3′ 11″ a 7′ 6″ y un peso de 67 a 661 lb.", "how_h": "Cómo funciona", "per_kg": "{v} g/kg para {aim}", "noscript": "La calculadora necesita JavaScript.", "kgweek": "kg por semana", "lbweek": "lb por semana"}, DEC = ",", F = document.getElementById("calc"), RES = document.getElementById("res"), BAD = document.getElementById("bad");
+function v(n){ var e = F.elements[n]; return e ? e.value : ""; }
+function num(n){ return parseFloat(String(v(n)).replace(",", ".")); }
+function fmt(x, d){ var s = x.toFixed(d); if (s.indexOf(".") >= 0) s = s.replace(/0+$/, "").replace(/\.$/, ""); return DEC === "," ? s.replace(".", ",") : s; }
+function signed(x, d){ return x > 0 ? "+" + fmt(x, d) : (x < 0 ? "−" + fmt(-x, d) : "0"); }
+function units(){ return v("units"); }
+function rates(keepKg){
+  var u = units(), opts = paceOptionsKg(u), shown = u === "imperial" ? PACES.imperial : PACES.metric, box = document.getElementById("rates");
+  var pick = nearestPace(keepKg != null && keepKg === keepKg ? keepKg : AIM[v("aim")][0], opts);
+  box.innerHTML = "";
+  opts.forEach(function(kg, i){ var l = document.createElement("label"), r = document.createElement("input");
+    r.type = "radio"; r.name = "pace"; r.value = String(kg); r.checked = kg === pick;
+    l.appendChild(r); l.appendChild(document.createTextNode(signed(shown[i], 2))); box.appendChild(l); });
+  document.getElementById("rateunit").textContent = u === "imperial" ? S.lbweek : S.kgweek;
+}
+function showUnits(){ var imp = units() === "imperial";
+  ["hm", "wm"].forEach(function(id){ document.getElementById(id).hidden = imp; });
+  ["hi", "wi"].forEach(function(id){ document.getElementById(id).hidden = !imp; }); }
+function syncUnits(){ var e = F.elements;
+  if (units() === "imperial") { var cm = num("cm"), kg = num("kg");
+    if (cm > 0) { var t = Math.round(cm / IN); e.ft.value = Math.floor(t / 12); e["in"].value = t % 12; }
+    if (kg > 0) e.lb.value = Math.round(kg * LB); }
+  else { var c = heightCm("imperial", 0, num("ft") || 0, num("in") || 0), w = num("lb");
+    if (c > 0) e.cm.value = Math.round(c); if (w > 0) e.kg.value = Math.round(w / LB * 2) / 2; } }
+function calc(){
+  var u = units(), p = { sex: v("sex"), age: Math.round(num("age")), activity: v("activity"), aim: v("aim"),
+    heightCm: heightCm(u, num("cm"), num("ft") || 0, num("in") || 0), weightKg: weightKg(u, num("kg"), num("lb")),
+    paceKg: parseFloat(v("pace")) };
+  var ok = plausible(p) && p.paceKg === p.paceKg;
+  RES.hidden = !ok; BAD.hidden = ok; BAD.textContent = u === "imperial" ? S.bad_imperial : S.bad_metric;
+  if (!ok) return;
+  var r = target(p);
+  document.getElementById("outk").textContent = r.kcal;
+  document.getElementById("outp").textContent = r.protein + " g";
+  document.getElementById("outc").textContent = r.carbs + " g";
+  document.getElementById("outf").textContent = r.fat + " g";
+  var d = [S.d_bmr.replace("{v}", Math.round(r.bmr)),
+           S.d_exp.replace("{f}", fmt(ACT[p.activity], 3)).replace("{v}", Math.round(r.expenditure)),
+           S.d_shift.replace("{v}", signed(Math.round(r.shift), 0))];
+  if (Math.round(r.expenditure + r.shift) < FLOOR) d.push(S.d_floor);
+  var ul = document.getElementById("outd"); ul.innerHTML = "";
+  d.forEach(function(x){ var li = document.createElement("li"); li.textContent = x; ul.appendChild(li); });
+}
+F.addEventListener("change", function(e){
+  if (e.target.name === "units") { var cur = parseFloat(v("pace")); syncUnits(); showUnits(); rates(cur); }
+  if (e.target.name === "aim") rates(null);
+  calc(); });
+F.addEventListener("input", calc);
+showUnits(); rates(null); calc();
+})();
+</script></body></html>

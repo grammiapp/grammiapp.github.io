@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Calorie Guess: 5 foods a day · Grammi</title>
+<meta name="description" content="A free daily game: guess the calories in 5 everyday foods. Same foods for everyone, new ones every midnight. Share your score.">
+<link rel="canonical" href="https://grammiapp.com/game/"><link rel="alternate" hreflang="en" href="https://grammiapp.com/game/"><link rel="alternate" hreflang="es" href="https://grammiapp.com/es/juego/"><link rel="alternate" hreflang="tr" href="https://grammiapp.com/tr/oyun/"><link rel="alternate" hreflang="x-default" href="https://grammiapp.com/game/">
+<meta name="apple-itunes-app" content="app-id=6815835582">
+<meta property="og:type" content="website"><meta property="og:title" content="Daily Calorie Guess: 5 foods a day · Grammi"><meta property="og:description" content="A free daily game: guess the calories in 5 everyday foods. Same foods for everyone, new ones every midnight. Share your score.">
+<meta property="og:url" content="https://grammiapp.com/game/"><meta property="og:image" content="https://grammiapp.com/icon.png">
+<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<style>
+:root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
+:root[data-theme="dark"]{--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans Arabic",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none;font-weight:800;font-size:20px}
+.brand img{width:44px;height:44px;border-radius:11px}
+select{font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 10px;max-width:100%}
+h1{font-size:34px;line-height:1.15;margin:8px 0 6px;letter-spacing:-.01em}
+h2{font-size:19px;margin:28px 0 8px}
+.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:14px 0}
+.lead{font-size:19px;font-weight:600;background:var(--accent-soft);border:0}
+ul{padding-inline-start:20px;margin:6px 0}li{margin:6px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;list-style:none}summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:inline-end;color:var(--accent);font-weight:800}details[open] summary::after{content:"–"}
+details p{margin:10px 0 0}
+a{color:var(--accent)}
+.mail{display:inline-block;margin-top:6px;font-weight:700;font-size:18px;word-break:break-all}
+nav.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:15px}
+.hero{text-align:center;padding:24px 0 8px}.hero img{width:128px;height:128px;border-radius:29px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.hero h1{font-size:40px;margin-top:18px}.points{list-style:none;padding:0;display:grid;gap:10px;margin:22px 0}
+.points li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-weight:600}
+.points li::before{content:"✓";color:var(--accent);font-weight:800;margin-inline-end:10px}
+.badge{text-decoration:none;display:inline-block;background:var(--ink);color:var(--bg);border-radius:12px;padding:10px 18px;font-weight:700}
+[hidden]{display:none!important}
+
+header{margin-bottom:18px}
+nav.top{flex-basis:100%;display:flex;gap:6px 14px;flex-wrap:wrap;font-size:15px;font-weight:700}
+nav.top a{text-decoration:none}nav.top a[aria-current]{color:var(--ink)}
+.langs{font-size:14px;display:flex;gap:10px}.langs a{text-decoration:none;font-weight:700}.langs span{color:var(--muted);font-weight:700}
+.crumbs{font-size:14px;color:var(--muted);margin:0 0 4px}.crumbs a{text-decoration:none}
+h1{font-size:30px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:end;white-space:nowrap}
+th{font-size:13px;color:var(--muted);font-weight:700}
+th:first-child,td:first-child{text-align:start;white-space:normal}
+td.sub{padding-inline-start:18px;color:var(--muted)}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:var(--line)}
+.bar i{display:block}.c1{background:var(--accent)}.c2{background:#E0A43A}.c3{background:#C8664A}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;font-weight:600}
+.legend b{display:inline-block;width:10px;height:10px;border-radius:3px;margin-inline-end:6px}
+.cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:10px 0}
+.cmp a{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.cmp a span{display:block;color:var(--muted);font-size:14px}
+.cta{text-align:center;background:var(--accent-soft);border:0;margin-top:30px}
+.cta h2{margin:4px 0 6px}.cta p{margin:0 0 14px}
+.src{font-size:14px;color:var(--muted)}
+.az h2{font-size:17px;margin:22px 0 4px;color:var(--accent)}
+.az ul{list-style:none;padding:0;margin:0}.az li{margin:0;border-bottom:1px solid var(--line)}
+.az a{display:flex;justify-content:space-between;gap:12px;padding:9px 2px;text-decoration:none;color:var(--ink)}
+.az a span{color:var(--muted);font-size:14px;white-space:nowrap}
+.pill{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 14px;margin:4px 4px 0 0;font-weight:700;text-decoration:none}
+button,.btn{font:inherit;font-weight:700;border:0;border-radius:12px;padding:12px 18px;background:var(--accent);color:var(--on-accent);cursor:pointer}
+:root{--on-accent:#fff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--on-accent:#0F1512}}:root[data-theme="dark"]{--on-accent:#0F1512}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 6px}
+.opt{font-size:22px;padding:18px 6px;background:var(--card);color:var(--ink);border:2px solid var(--line);font-variant-numeric:tabular-nums;min-height:64px}
+.opt:hover:not([disabled]){border-color:var(--accent)}.opt[disabled]{opacity:1;cursor:default}.opt.dim{opacity:.4}
+.opt.b0{background:#2F9E5A;border-color:#2F9E5A;color:#fff}.opt.b1{background:#F2C94C;border-color:#F2C94C;color:#1B2A21}
+.opt.b2{background:#F2994A;border-color:#F2994A;color:#1B2A21}.opt.b3{background:#8C9590;border-color:#8C9590;color:#fff}
+button[disabled]{opacity:.45;cursor:default}
+button.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+input[type=number]{font:inherit;font-size:20px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:100%;max-width:100%}
+input[type=range]{width:100%;accent-color:var(--accent);margin:14px 0}
+select{font-size:17px;padding:10px 36px 10px 12px;width:100%;-webkit-appearance:none;appearance:none;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238C9590' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center}
+#rates{display:grid;grid-template-columns:repeat(5,1fr)}#rates label{min-width:0;padding:9px 2px}
+label{font-weight:700;font-size:15px}
+.row{display:flex;gap:10px;align-items:flex-end}.row>*{flex:1;min-width:0}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+.seg label{flex:1 1 auto;font-weight:600;text-align:center;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 8px;cursor:pointer;min-width:56px}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.seg label:has(input:focus-visible){outline:2px solid var(--accent)}
+.aims{display:grid;gap:8px;margin:6px 0}
+.aims label{display:block;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 14px;cursor:pointer;font-weight:700}
+.aims label small{display:block;color:var(--muted);font-weight:500;font-size:14px}
+.aims label:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.aims input{position:absolute;opacity:0;pointer-events:none}
+.field{margin:12px 0}
+.big{font-size:52px;font-weight:800;line-height:1.05;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.macros3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 6px;text-align:center}
+.macros3 div{background:var(--bg);border-radius:12px;padding:10px 4px}.macros3 b{display:block;font-size:22px}
+.center{text-align:center}
+.food-emoji{font-size:64px;line-height:1.1}
+.qname{font-size:24px;font-weight:800;margin:6px 0 0}
+.portion{color:var(--muted);font-weight:600}
+.reveal{font-size:20px;font-weight:700;margin:14px 0 4px}
+.squares{font-size:30px;letter-spacing:4px;margin:8px 0}
+.list{list-style:none;padding:0;margin:12px 0;text-align:start}.list li{display:flex;gap:10px;align-items:baseline;border-bottom:1px solid var(--line);padding:8px 0;margin:0}
+.list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
+.progress{color:var(--muted);font-weight:700;font-size:14px}
+@media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
+</style></head><body><div class="wrap">
+<header><a class="brand" href="/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><span>EN</span><a href="/es/juego/" hreflang="es" lang="es">ES</a><a href="/tr/oyun/" hreflang="tr" lang="tr">TR</a></div>
+<nav class="top"><a href="/calories/">Calories</a><a href="/game/" aria-current="page">Daily game</a><a href="/calculator/">Calculator</a></nav></header>
+<main><h1>🎯 Daily calorie guess</h1><p class="muted">Five foods, one portion each, four answers. Pick the calorie count you think is right. Everyone plays the same foods, and new ones arrive at midnight.</p><div id="game"><noscript><div class="card">This game needs JavaScript.</div></noscript></div><h2>How scoring works</h2><div class="card"><p style="margin:0">Your pick is scored by how far it is from the real number, as a percentage, so a near miss still earns points. Under 10% off: 100 points · under 25%: 60 · under 50%: 25 · further off: 0. The same rule as the calorie game in the Grammi app.</p><p class="src">Calories are for the portion shown, from USDA FoodData Central. <a href="/calories/">Look up any food →</a></p></div></main>
+<div class="card cta"><h2>Log what you really eat with Grammi</h2><p class="muted">Free barcode scanning, no ads, no account. Your food diary stays on your iPhone.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_game&amp;mt=8">Get Grammi on the App Store</a></div>
+<nav class="links"><a href="/">Grammi</a><a href="/calories/">Calories</a><a href="/game/">Daily game</a><a href="/calculator/">Calculator</a><a href="/privacy.html?lang=en">Privacy</a><a href="/support.html?lang=en">Support</a></nav>
+</div><script>/*CORE*/
+var BANDS = [0.1, 0.25, 0.5], POINTS = [100, 60, 25, 0], SQUARES = ["🟩","🟨","🟧","⬜"];
+var BELOW = [0.8, 0.62, 0.45], ABOVE = [1.2, 1.45, 1.8], GAP = 1.2;
+var EPOCH = Date.UTC(2026, 9, 7);
+function gErr(guess, actual) { return actual > 0 ? Math.abs(guess - actual) / actual : 1; }
+function gBand(guess, actual) { var e = gErr(guess, actual); for (var i = 0; i < BANDS.length; i++) { if (e < BANDS[i]) return i; } return BANDS.length; }
+function dayNumber(d) { return Math.round((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - EPOCH) / 864e5) + 1; }
+function mulberry(a) { return function () { a = (a + 0x6D2B79F5) | 0; var t = Math.imul(a ^ (a >>> 15), 1 | a);
+  t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+function perm(n, seed) { var r = mulberry(seed * 2654435761 + 12345), a = []; for (var i = 0; i < n; i++) a.push(i);
+  for (i = n - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+function todays(n, day) { var out = [], k0 = (Math.max(1, day) - 1) * 5; for (var i = 0; i < 5; i++) { var k = k0 + i;
+  out.push(perm(n, Math.floor(k / n))[k % n]); } return out; }
+function r5(x) { return Math.max(5, Math.round(x / 5) * 5); }
+// doğru cevap (5'e yuvarlı) + k tanesi altta, 3-k tanesi üstte çeldirici; komşular arasında en az GAP oranı
+function ladder(T, k) { var t = r5(T), out = [t], prev = t, i, v;
+  for (i = 0; i < k; i++) { v = r5(T * BELOW[i]); while (v > 5 && prev / v < GAP) v -= 5;
+    if (prev / v < GAP) return ladder(T, k - 1); out.push(v); prev = v; }
+  prev = t;
+  for (i = 0; i < 3 - k; i++) { v = r5(T * ABOVE[i]); while (v / prev < GAP) v += 5; out.push(v); prev = v; }
+  return out; }
+function choices(T, day, q) { var r = mulberry(Math.max(1, day) * 7919 + q * 104729 + 1), o = ladder(T, Math.floor(r() * 4));
+  for (var i = o.length - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)), x = o[i]; o[i] = o[j]; o[j] = x; } return o; }
+/*END*/
+(function(){
+var POOL = [["Boiled egg", "🥚", "Large", "50", 78], ["Fried egg", "🍳", "Large", "46", 90], ["Scrambled eggs", "🍳", "1 egg", "61", 91], ["Omelette", "🍳", "1 egg", "61", 94], ["Milk (whole)", "🥛", "1 glass", "244", 149], ["Yogurt (plain, whole milk)", "🥣", "1 cup", "245", 149], ["Greek yogurt (nonfat)", "🥣", "1 serving", "170", 100], ["Cheddar cheese", "🧀", "1 slice", "28", 113], ["Mozzarella", "🧀", "1 slice", "28.3", 85], ["Feta cheese", "🧀", "1 slice", "38", 101], ["Parmesan", "🧀", "1 tbsp", "5", 20], ["Butter", "🧈", "1 tbsp", "14.2", 102], ["Chicken breast (cooked)", "🍗", "1 fillet", "172", 284], ["Chicken wing (cooked, with skin)", "🍗", "1 piece", "40", 102], ["Fried chicken (thigh)", "🍗", "1 piece", "62", 162], ["Turkey (roasted)", "🦃", "1 serving", "85", 135], ["Ground beef (cooked, 85% lean)", "🥩", "1 serving", "85", 218], ["Beef steak (sirloin, grilled)", "🥩", "1 serving", "85", 218], ["Lamb chop (grilled)", "🍖", "1 piece", "64", 202], ["Bacon (cooked)", "🥓", "1 slice", "8.1", 44], ["Ham (sliced)", "🍖", "1 slice", "28", 45], ["Salami", "🍖", "1 slice", "10", 41], ["Hot dog sausage (beef)", "🌭", "1 piece", "48", 155], ["Salmon (cooked)", "🐟", "1 fillet", "178", 367], ["Tuna (canned in water)", "🐟", "1 can", "165", 142], ["Cod (cooked)", "🐟", "1 fillet", "180", 189], ["Tilapia (cooked)", "🐟", "1 fillet", "87", 111], ["Sardines (canned in oil)", "🐟", "1 piece", "12", 25], ["Shrimp (cooked)", "🦐", "1 serving", "85", 84], ["Rice (white, cooked)", "🍚", "1 cup", "158", 205], ["Bulgur (cooked)", "🌾", "1 cup", "182", 151], ["Couscous (cooked)", "🌾", "1 cup", "157", 176], ["Quinoa (cooked)", "🌾", "1 cup", "185", 222], ["Oatmeal (cooked with water)", "🥣", "1 cup", "234", 166], ["Pasta (cooked)", "🍝", "1 cup", "124", 196], ["White bread", "🍞", "1 slice", "29", 77], ["Pita bread", "🫓", "1 piece", "60", 165], ["Baguette", "🥖", "1 serving", "28.4", 77], ["Bagel", "🥯", "1 piece", "99", 261], ["Croissant", "🥐", "Medium", "57", 231], ["Corn flakes (cereal)", "🥣", "1 cup", "28", 108], ["Granola", "🥣", "1 cup", "122", 597], ["Popcorn (air-popped)", "🍿", "1 cup", "8", 31], ["Lentils (cooked)", "🫘", "1 cup", "198", 230], ["Chickpeas (cooked)", "🫘", "1 cup", "164", 269], ["Black beans (cooked)", "🫘", "1 cup", "172", 227], ["Hummus", "🫘", "1 tbsp", "15", 36], ["Falafel", "🧆", "1 piece", "17", 57], ["Potato (boiled)", "🥔", "Medium", "167", 144], ["Mashed potatoes", "🥔", "1 cup", "210", 237], ["Sweet potato (baked)", "🍠", "Medium", "114", 103], ["Tomato", "🍅", "Medium", "123", 22], ["Carrot", "🥕", "Medium", "61", 25], ["Green beans", "🫛", "1 cup", "100", 31], ["Sweet corn (cooked)", "🌽", "Small", "89", 85], ["Avocado", "🥑", "1 piece", "201", 322], ["Banana", "🍌", "Medium", "118", 105], ["Apple", "🍎", "Medium", "182", 95], ["Orange", "🍊", "Medium", "131", 62], ["Grapes", "🍇", "1 cup", "151", 104], ["Strawberries", "🍓", "1 cup", "152", 49], ["Blueberries", "🫐", "1 cup", "148", 84], ["Watermelon", "🍉", "1 cup", "152", 46], ["Pineapple", "🍍", "1 cup", "165", 83], ["Mango", "🥭", "1 piece", "336", 202], ["Pear", "🍐", "Medium", "178", 101], ["Peach", "🍑", "Medium", "150", 59], ["Cherries", "🍒", "1 cup", "154", 97], ["Kiwi", "🥝", "1 piece", "69", 42], ["Pomegranate", "🍎", "1 piece", "282", 234], ["Dates (Medjool)", "🌴", "1 piece", "24", 66], ["Raisins", "🍇", "1 cup", "145", 434], ["Almonds", "🌰", "1 serving", "28.4", 164], ["Walnuts", "🌰", "1 serving", "28.4", 185], ["Pistachios", "🌰", "1 serving", "28.4", 159], ["Peanuts (roasted)", "🥜", "1 serving", "28.4", 166], ["Chia seeds", "🌱", "1 tbsp", "12", 58], ["Peanut butter", "🥜", "1 tbsp", "16", 96], ["Olive oil", "🫒", "1 tbsp", "13.5", 119], ["Honey", "🍯", "1 tbsp", "21", 64], ["Dark chocolate (70-85%)", "🍫", "1 serving", "28.4", 170], ["Milk chocolate", "🍫", "1 piece", "44", 235], ["Chocolate hazelnut spread", "🍫", "1 tbsp", "37", 199], ["Dulce de leche", "🍮", "1 tbsp", "19", 60], ["Latte", "☕", "1 mug", "250", 108], ["Cappuccino", "☕", "1 mug", "180", 49], ["Turkish coffee (medium sweet)", "☕", "1 small cup", "70", 20], ["Orange juice", "🧃", "1 glass", "249", 122], ["Cola", "🥤", "1 can", "370", 155], ["Beer", "🍺", "1 can", "356", 153], ["Red wine", "🍷", "1 glass", "147", 125], ["Ayran", "🥛", "1 glass", "200", 73], ["Lemonade", "🍋", "1 serving", "248", 114], ["Hot chocolate", "☕", "1 mug", "250", 228], ["Pizza (cheese)", "🍕", "1 serving", "151", 405], ["Hamburger", "🍔", "1 piece", "78", 232], ["Chicken nuggets", "🍗", "1 piece", "16", 49], ["French fries", "🍟", "Small", "71", 222], ["Pancakes", "🥞", "1 piece", "77", 175], ["Doughnut (glazed)", "🍩", "1 piece", "45", 192], ["Blueberry muffin", "🧁", "Medium", "113", 424], ["Chocolate chip cookies", "🍪", "1 piece", "12.9", 63], ["Potato chips", "🥔", "1 serving", "28", 149], ["Ice cream (vanilla)", "🍨", "1 serving", "66", 137], ["Chocolate cake", "🍰", "1 slice", "95", 352], ["Baklava", "🍯", "1 piece", "40", 176], ["Tiramisu", "🍰", "1 piece", "175", 618], ["Churros", "🥖", "Medium", "45", 189], ["Rice pudding", "🍚", "1 bowl", "180", 236], ["Künefe", "🍯", "1 piece", "150", 542], ["Alfajor (cornstarch)", "🍪", "1 piece", "45", 185], ["Crêpe (plain)", "🥞", "1 piece", "55", 123], ["Menemen", "🍳", "1 serving", "250", 265], ["Red lentil soup", "🍲", "1 bowl", "250", 174], ["Rice pilaf (Turkish)", "🍚", "1 serving", "180", 306], ["White bean stew (kuru fasulye)", "🫘", "1 serving", "300", 361], ["Turkish meatballs (köfte)", "🍢", "1 piece", "25", 66], ["Lahmacun", "🫓", "1 piece", "120", 253], ["Cheese börek", "🥟", "1 slice", "150", 455], ["Gözleme (cheese & spinach)", "🫓", "1 piece", "250", 595], ["Simit", "🥯", "1 piece", "110", 347], ["Cacık (yogurt & cucumber)", "🥒", "1 bowl", "200", 96], ["Stuffed eggplant (karnıyarık)", "🍆", "1 piece", "200", 293], ["Manti (Turkish dumplings)", "🥟", "1 serving", "300", 539], ["Döner kebab (in bread)", "🥙", "1 piece", "390", 812], ["Iskender kebab", "🥙", "1 serving", "370", 761], ["Adana kebab", "🍢", "1 serving", "330", 700], ["Imam bayildi", "🍆", "1 piece", "200", 310], ["Spanish omelette", "🍳", "1 serving", "150", 262], ["Gazpacho", "🍅", "1 bowl", "250", 147], ["Beef empanada", "🥟", "1 piece", "90", 231], ["Milanesa (breaded beef cutlet)", "🥩", "1 piece", "150", 418], ["Arepa (plain)", "🫓", "1 piece", "100", 186], ["Beef tacos (carne asada)", "🌮", "1 piece", "100", 203], ["Chicken and rice (arroz con pollo)", "🍚", "1 serving", "350", 539], ["Spaghetti carbonara", "🍝", "1 serving", "300", 648], ["Spaghetti bolognese", "🍝", "1 serving", "350", 544], ["Lasagna", "🍝", "1 serving", "300", 618], ["Paella", "🥘", "1 serving", "350", 592], ["Guacamole", "🥑", "1 tbsp", "15", 22], ["Beef burrito", "🌯", "1 piece", "380", 855], ["Chili con carne", "🌶️", "1 bowl", "300", 354], ["Cheese quesadilla", "🫓", "1 piece", "115", 363], ["Chicken Caesar salad", "🥗", "1 serving", "300", 528], ["Greek salad", "🥗", "1 serving", "250", 286], ["Shakshuka", "🍳", "1 serving", "300", 270], ["Avocado toast", "🥑", "1 piece", "140", 323], ["Mac and cheese", "🧀", "1 serving", "250", 558], ["Chicken curry", "🍛", "1 serving", "250", 268], ["California roll (sushi)", "🍣", "1 piece", "30", 28]], S = {"title": "Daily Calorie Guess: 5 foods a day · Grammi", "h1": "Daily calorie guess", "desc": "A free daily game: guess the calories in 5 everyday foods. Same foods for everyone, new ones every midnight. Share your score.", "intro": "Five foods, one portion each, four answers. Pick the calorie count you think is right. Everyone plays the same foods, and new ones arrive at midnight.", "q_of": "Food {i} of 5", "ask": "How many calories?", "next": "Next", "results": "See results", "answer": "Answer: {n} kcal", "exact": "(exact value {n} kcal)", "streak_share": "🔥 {n}-day streak", "you": "Your pick", "actual": "Actual", "pts": "+{n} points", "score": "Your score", "streak1": "Streak: 1 day", "streak": "Streak: {n} days", "best": "Best: {n}", "share": "Share", "copied": "Copied!", "next_in": "Next game in", "played": "You’ve played today’s game.", "how_h": "How scoring works", "how": "Your pick is scored by how far it is from the real number, as a percentage, so a near miss still earns points. Under 10% off: 100 points · under 25%: 60 · under 50%: 25 · further off: 0. The same rule as the calorie game in the Grammi app.", "data": "Calories are for the portion shown, from USDA FoodData Central.", "noscript": "This game needs JavaScript.", "more": "Look up any food"}, BL = ["Spot on", "Close", "In the ballpark", "Way off"], URL = "grammiapp.com/game", KEY = "grammi.game.v2", SKEY = "grammi.streak.v1";
+function ld(k){ try { return JSON.parse(localStorage.getItem(k) || "null"); } catch (e) { return null; } }
+function sv(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+function f(s, n){ return s.replace("{n}", n).replace("{i}", n); }
+var app = document.getElementById("game"), day = dayNumber(new Date()), items = todays(POOL.length, day).map(function(i){ return POOL[i]; });
+var st = ld(KEY); if (!st || st.day !== day || !Array.isArray(st.g)) st = { day: day, g: [] };
+var revealed = false;
+function h(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function score(){ var s = 0; st.g.forEach(function(g, i){ s += POINTS[gBand(g, items[i][4])]; }); return s; }
+function squares(){ return st.g.map(function(g, i){ return SQUARES[gBand(g, items[i][4])]; }).join(""); }
+function streak(){ var k = ld(SKEY) || { last: 0, n: 0, best: 0 };
+  if (k.last !== day) { k.n = (k.last === day - 1) ? k.n + 1 : 1; k.last = day; k.best = Math.max(k.best || 0, k.n); sv(SKEY, k); } return k; }
+function render(){
+  app.innerHTML = "";
+  if (st.g.length >= 5 && !revealed) return summary();
+  var i = revealed ? st.g.length - 1 : st.g.length, it = items[i], T = it[4], ch = choices(T, day, i), card = h("div", "card center");
+  var best = ch.reduce(function(a, b){ return gErr(b, T) < gErr(a, T) ? b : a; }), picked = revealed ? st.g[i] : null;
+  card.appendChild(h("div", "progress", f(S.q_of, i + 1)));
+  card.appendChild(h("div", "food-emoji", it[1]));
+  card.appendChild(h("div", "qname", it[0]));
+  card.appendChild(h("div", "portion", it[2] + " · " + it[3] + " g"));
+  card.appendChild(h("p", "reveal", S.ask));
+  var grid = h("div", "opts"), first = null;
+  ch.forEach(function(v){ var b = h("button", "opt", v + " kcal"); b.type = "button";
+    if (revealed) { b.disabled = true; b.className += v === best ? " b0" : (v === picked ? " b" + gBand(v, T) : " dim"); }
+    else { b.addEventListener("click", function(){ st.g.push(v); sv(KEY, st); revealed = true; if (st.g.length === 5) streak(); render(); });
+      if (!first) first = b; }
+    grid.appendChild(b); });
+  card.appendChild(grid);
+  if (revealed) {
+    var bd = gBand(picked, T), r = h("div", null); r.setAttribute("aria-live", "polite");
+    r.appendChild(h("p", "reveal", SQUARES[bd] + " " + BL[bd] + " · " + f(S.pts, POINTS[bd])));
+    r.appendChild(h("p", "muted", f(S.answer, best) + (best !== T ? " " + f(S.exact, T) : "")));
+    var nx = h("button", null, st.g.length >= 5 ? S.results : S.next); nx.type = "button";
+    nx.addEventListener("click", function(){ revealed = false; render(); });
+    r.appendChild(nx); card.appendChild(r); app.appendChild(card); nx.focus({ preventScroll: true }); return;
+  }
+  app.appendChild(card); if (st.g.length && first) first.focus({ preventScroll: true });
+}
+function summary(){
+  var card = h("div", "card center"), sc = score(), k = streak();
+  var text = "Grammi #" + day + " " + squares() + " " + sc + "/500" + (k.n >= 2 ? " " + f(S.streak_share, k.n) : "") + " " + URL;
+  card.appendChild(h("div", "progress", S.played));
+  card.appendChild(h("div", "progress", S.score));
+  card.appendChild(h("div", "big", sc + "/500"));
+  card.appendChild(h("div", "squares", squares()));
+  card.appendChild(h("p", null, "🔥 " + (k.n === 1 ? S.streak1 : f(S.streak, k.n)) + " · " + f(S.best, k.best)));
+  var ul = h("ul", "list");
+  items.forEach(function(it, i){ var li = h("li"), g = st.g[i];
+    li.appendChild(h("b", null, SQUARES[gBand(g, it[4])] + " " + it[1] + " " + it[0]));
+    li.appendChild(h("span", null, S.you + " " + g + " · " + S.actual + " " + it[4] + " kcal")); ul.appendChild(li); });
+  card.appendChild(ul);
+  var sh = h("button", null, S.share); sh.type = "button";
+  sh.addEventListener("click", function(){
+    function copied(){ sh.textContent = S.copied; setTimeout(function(){ sh.textContent = S.share; }, 2000); }
+    function fallback(){ var ta = document.createElement("textarea"); ta.value = text; card.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); copied(); } catch (e) {} }
+    if (navigator.share) { navigator.share({ text: text }).catch(function(){}); return; }
+    if (navigator.clipboard) { navigator.clipboard.writeText(text).then(copied, fallback); } else fallback();
+  });
+  card.appendChild(sh);
+  var cd = h("p", "progress"); card.appendChild(cd);
+  function tick(){ var n = new Date(), m = new Date(n.getFullYear(), n.getMonth(), n.getDate() + 1), s = Math.max(0, Math.round((m - n) / 1000));
+    if (s === 0 || dayNumber(n) !== day) { location.reload(); return; }
+    var p = function(x){ return (x < 10 ? "0" : "") + x; };
+    cd.textContent = S.next_in + " " + p(Math.floor(s / 3600)) + ":" + p(Math.floor(s / 60) % 60) + ":" + p(s % 60); }
+  tick(); setInterval(tick, 1000);
+  app.appendChild(card);
+}
+render();
+})();
+</script></body></html>
