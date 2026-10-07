@@ -6,7 +6,7 @@
 <meta name="apple-itunes-app" content="app-id=6815835582">
 <meta property="og:type" content="website"><meta property="og:title" content="Günün Kalori Tahmini: Her gün 5 yiyecek · Grammi"><meta property="og:description" content="Ücretsiz günlük oyun: 5 yaygın yiyeceğin kalorisini tahmin et. Herkese aynı yiyecekler, her gece yarısı yenileri. Puanını paylaş.">
 <meta property="og:url" content="https://grammiapp.com/tr/oyun/"><meta property="og:image" content="https://grammiapp.com/icon.png">
-<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
 <style>
 :root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
@@ -104,12 +104,19 @@ label{font-weight:700;font-size:15px}
 .list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
 .progress{color:var(--muted);font-weight:700;font-size:14px}
 @media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
-</style></head><body><div class="wrap">
-<header><a class="brand" href="/?lang=tr"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/game/" hreflang="en" lang="en">EN</a><a href="/es/juego/" hreflang="es" lang="es">ES</a><span>TR</span></div>
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+</style></head><body><a class="skip" href="#main">İçeriğe geç</a><div class="wrap">
+<header><a class="brand" href="/tr/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/game/" hreflang="en" lang="en">EN</a><a href="/es/juego/" hreflang="es" lang="es">ES</a><span>TR</span></div>
 <nav class="top"><a href="/tr/kalori/">Kaloriler</a><a href="/tr/oyun/" aria-current="page">Günlük oyun</a><a href="/tr/hesaplayici/">Hesaplayıcı</a></nav></header>
-<main><h1>🎯 Günün kalori tahmini</h1><p class="muted">Beş yiyecek, her birinden bir porsiyon, dört cevap. Doğru olduğunu düşündüğün kaloriyi seç. Herkes aynı yiyeceklerle oynar; yenileri gece yarısı gelir.</p><div id="game"><noscript><div class="card">Bu oyun JavaScript gerektirir.</div></noscript></div><h2>Puanlama nasıl?</h2><div class="card"><p style="margin:0">Seçimin gerçek sayıya yüzde olarak ne kadar uzak olduğuna göre puanlanır; yani az farkla kaçırsan da puan alırsın. %10&#x27;dan az fark: 100 puan · %25&#x27;ten az: 60 · %50&#x27;den az: 25 · daha uzak: 0. Grammi uygulamasındaki kalori oyunuyla aynı kural.</p><p class="src">Kaloriler gösterilen porsiyon içindir; kaynak USDA FoodData Central. <a href="/tr/kalori/">Herhangi bir yiyeceğe bak →</a></p></div></main>
+<main id="main"><h1>🎯 Günün kalori tahmini</h1><p class="muted">Beş yiyecek, her birinden bir porsiyon, dört cevap. Doğru olduğunu düşündüğün kaloriyi seç. Herkes aynı yiyeceklerle oynar; yenileri gece yarısı gelir.</p><div id="game"><noscript><div class="card">Bu oyun JavaScript gerektirir.</div></noscript></div><h2>Puanlama nasıl?</h2><div class="card"><p style="margin:0">Seçimin gerçek sayıya yüzde olarak ne kadar uzak olduğuna göre puanlanır; yani az farkla kaçırsan da puan alırsın. %10&#x27;dan az fark: 100 puan · %25&#x27;ten az: 60 · %50&#x27;den az: 25 · daha uzak: 0. Grammi uygulamasındaki kalori oyunuyla aynı kural.</p><p class="src">Kaloriler gösterilen porsiyon içindir; kaynak USDA FoodData Central. <a href="/tr/kalori/">Herhangi bir yiyeceğe bak →</a></p></div></main>
 <div class="card cta"><h2>Gerçekte ne yediğini Grammi ile kaydet</h2><p class="muted">Barkod tarama ücretsiz; reklam yok, hesap yok. Yemek günlüğün iPhone&#x27;unda kalır.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_game&amp;mt=8">Grammi&#x27;yi App Store&#x27;dan indir</a></div>
-<nav class="links"><a href="/?lang=tr">Grammi</a><a href="/tr/kalori/">Kaloriler</a><a href="/tr/oyun/">Günlük oyun</a><a href="/tr/hesaplayici/">Hesaplayıcı</a><a href="/privacy.html?lang=tr">Gizlilik</a><a href="/support.html?lang=tr">Destek</a></nav>
+<nav class="links"><a href="/tr/">Grammi</a><a href="/tr/kalori/">Kaloriler</a><a href="/tr/oyun/">Günlük oyun</a><a href="/tr/hesaplayici/">Hesaplayıcı</a><a href="/privacy.html?lang=tr">Gizlilik</a><a href="/support.html?lang=tr">Destek</a></nav>
 </div><script>/*CORE*/
 var BANDS = [0.1, 0.25, 0.5], POINTS = [100, 60, 25, 0], SQUARES = ["🟩","🟨","🟧","⬜"];
 var BELOW = [0.8, 0.62, 0.45], ABOVE = [1.2, 1.45, 1.8], GAP = 1.2;

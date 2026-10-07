@@ -6,7 +6,7 @@
 <meta name="apple-itunes-app" content="app-id=6815835582">
 <meta property="og:type" content="website"><meta property="og:title" content="Daily Calorie Guess: 5 foods a day · Grammi"><meta property="og:description" content="A free daily game: guess the calories in 5 everyday foods. Same foods for everyone, new ones every midnight. Share your score.">
 <meta property="og:url" content="https://grammiapp.com/game/"><meta property="og:image" content="https://grammiapp.com/icon.png">
-<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
 <style>
 :root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
@@ -104,10 +104,17 @@ label{font-weight:700;font-size:15px}
 .list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
 .progress{color:var(--muted);font-weight:700;font-size:14px}
 @media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
-</style></head><body><div class="wrap">
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+</style></head><body><a class="skip" href="#main">Skip to content</a><div class="wrap">
 <header><a class="brand" href="/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><span>EN</span><a href="/es/juego/" hreflang="es" lang="es">ES</a><a href="/tr/oyun/" hreflang="tr" lang="tr">TR</a></div>
 <nav class="top"><a href="/calories/">Calories</a><a href="/game/" aria-current="page">Daily game</a><a href="/calculator/">Calculator</a></nav></header>
-<main><h1>🎯 Daily calorie guess</h1><p class="muted">Five foods, one portion each, four answers. Pick the calorie count you think is right. Everyone plays the same foods, and new ones arrive at midnight.</p><div id="game"><noscript><div class="card">This game needs JavaScript.</div></noscript></div><h2>How scoring works</h2><div class="card"><p style="margin:0">Your pick is scored by how far it is from the real number, as a percentage, so a near miss still earns points. Under 10% off: 100 points · under 25%: 60 · under 50%: 25 · further off: 0. The same rule as the calorie game in the Grammi app.</p><p class="src">Calories are for the portion shown, from USDA FoodData Central. <a href="/calories/">Look up any food →</a></p></div></main>
+<main id="main"><h1>🎯 Daily calorie guess</h1><p class="muted">Five foods, one portion each, four answers. Pick the calorie count you think is right. Everyone plays the same foods, and new ones arrive at midnight.</p><div id="game"><noscript><div class="card">This game needs JavaScript.</div></noscript></div><h2>How scoring works</h2><div class="card"><p style="margin:0">Your pick is scored by how far it is from the real number, as a percentage, so a near miss still earns points. Under 10% off: 100 points · under 25%: 60 · under 50%: 25 · further off: 0. The same rule as the calorie game in the Grammi app.</p><p class="src">Calories are for the portion shown, from USDA FoodData Central. <a href="/calories/">Look up any food →</a></p></div></main>
 <div class="card cta"><h2>Log what you really eat with Grammi</h2><p class="muted">Free barcode scanning, no ads, no account. Your food diary stays on your iPhone.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_game&amp;mt=8">Get Grammi on the App Store</a></div>
 <nav class="links"><a href="/">Grammi</a><a href="/calories/">Calories</a><a href="/game/">Daily game</a><a href="/calculator/">Calculator</a><a href="/privacy.html?lang=en">Privacy</a><a href="/support.html?lang=en">Support</a></nav>
 </div><script>/*CORE*/

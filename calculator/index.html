@@ -6,7 +6,7 @@
 <meta name="apple-itunes-app" content="app-id=6815835582">
 <meta property="og:type" content="website"><meta property="og:title" content="Calorie &amp; Protein Calculator: your daily target · Grammi"><meta property="og:description" content="Free calorie and protein calculator: daily calories, protein, carbs and fat from your age, height, weight, activity and goal. Metric or imperial.">
 <meta property="og:url" content="https://grammiapp.com/calculator/"><meta property="og:image" content="https://grammiapp.com/icon.png">
-<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
 <style>
 :root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
@@ -104,10 +104,17 @@ label{font-weight:700;font-size:15px}
 .list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
 .progress{color:var(--muted);font-weight:700;font-size:14px}
 @media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
-</style></head><body><div class="wrap">
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+</style></head><body><a class="skip" href="#main">Skip to content</a><div class="wrap">
 <header><a class="brand" href="/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><span>EN</span><a href="/es/calculadora/" hreflang="es" lang="es">ES</a><a href="/tr/hesaplayici/" hreflang="tr" lang="tr">TR</a></div>
 <nav class="top"><a href="/calories/">Calories</a><a href="/game/">Daily game</a><a href="/calculator/" aria-current="page">Calculator</a></nav></header>
-<main><h1>🧮 Calorie &amp; protein calculator</h1><p class="muted">Get a daily calorie target with protein, carbs and fat, worked out with the same formula Grammi uses for your first target.</p><form id="calc" class="card" onsubmit="return false">
+<main id="main"><h1>🧮 Calorie &amp; protein calculator</h1><p class="muted">Get a daily calorie target with protein, carbs and fat, worked out with the same formula Grammi uses for your first target.</p><form id="calc" class="card" onsubmit="return false">
 <div class="seg" role="radiogroup"><label><input type="radio" name="units" value="metric">Metric</label><label><input type="radio" name="units" value="imperial" checked>Imperial</label></div>
 <h2>About you</h2>
 <div class="seg" role="radiogroup" aria-label="Sex"><label><input type="radio" name="sex" value="female" checked>Female</label><label><input type="radio" name="sex" value="male">Male</label></div>

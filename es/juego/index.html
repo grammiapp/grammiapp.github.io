@@ -6,7 +6,7 @@
 <meta name="apple-itunes-app" content="app-id=6815835582">
 <meta property="og:type" content="website"><meta property="og:title" content="Adivina las calorías: 5 alimentos al día · Grammi"><meta property="og:description" content="Un juego diario y gratis: adivina las calorías de 5 alimentos comunes. Los mismos para todos y nuevos cada medianoche. Comparte tu puntuación.">
 <meta property="og:url" content="https://grammiapp.com/es/juego/"><meta property="og:image" content="https://grammiapp.com/icon.png">
-<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
 <style>
 :root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
@@ -104,12 +104,19 @@ label{font-weight:700;font-size:15px}
 .list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
 .progress{color:var(--muted);font-weight:700;font-size:14px}
 @media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
-</style></head><body><div class="wrap">
-<header><a class="brand" href="/?lang=es"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/game/" hreflang="en" lang="en">EN</a><span>ES</span><a href="/tr/oyun/" hreflang="tr" lang="tr">TR</a></div>
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+</style></head><body><a class="skip" href="#main">Saltar al contenido</a><div class="wrap">
+<header><a class="brand" href="/es/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/game/" hreflang="en" lang="en">EN</a><span>ES</span><a href="/tr/oyun/" hreflang="tr" lang="tr">TR</a></div>
 <nav class="top"><a href="/es/calorias/">Calorías</a><a href="/es/juego/" aria-current="page">Juego diario</a><a href="/es/calculadora/">Calculadora</a></nav></header>
-<main><h1>🎯 Adivina las calorías</h1><p class="muted">Cinco alimentos, una porción de cada uno y cuatro respuestas. Elige las calorías que crees correctas. Todos juegan con los mismos alimentos y cambian a medianoche.</p><div id="game"><noscript><div class="card">Este juego necesita JavaScript.</div></noscript></div><h2>Cómo se puntúa</h2><div class="card"><p style="margin:0">Tu elección se puntúa según qué tan lejos queda del número real, en porcentaje, así que casi acertar también suma. A menos del 10 %: 100 puntos · a menos del 25 %: 60 · a menos del 50 %: 25 · más lejos: 0. Es la misma regla del juego de calorías de la app Grammi.</p><p class="src">Las calorías son de la porción indicada, según el USDA FoodData Central. <a href="/es/calorias/">Busca cualquier alimento →</a></p></div></main>
+<main id="main"><h1>🎯 Adivina las calorías</h1><p class="muted">Cinco alimentos, una porción de cada uno y cuatro respuestas. Elige las calorías que crees correctas. Todos juegan con los mismos alimentos y cambian a medianoche.</p><div id="game"><noscript><div class="card">Este juego necesita JavaScript.</div></noscript></div><h2>Cómo se puntúa</h2><div class="card"><p style="margin:0">Tu elección se puntúa según qué tan lejos queda del número real, en porcentaje, así que casi acertar también suma. A menos del 10 %: 100 puntos · a menos del 25 %: 60 · a menos del 50 %: 25 · más lejos: 0. Es la misma regla del juego de calorías de la app Grammi.</p><p class="src">Las calorías son de la porción indicada, según el USDA FoodData Central. <a href="/es/calorias/">Busca cualquier alimento →</a></p></div></main>
 <div class="card cta"><h2>Registra lo que comes de verdad con Grammi</h2><p class="muted">Escaneo de códigos gratis, sin anuncios y sin cuenta. Tu diario se queda en tu iPhone.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_game&amp;mt=8">Descarga Grammi en el App Store</a></div>
-<nav class="links"><a href="/?lang=es">Grammi</a><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/">Calculadora</a><a href="/privacy.html?lang=es">Privacidad</a><a href="/support.html?lang=es">Ayuda</a></nav>
+<nav class="links"><a href="/es/">Grammi</a><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/">Calculadora</a><a href="/privacy.html?lang=es">Privacidad</a><a href="/support.html?lang=es">Ayuda</a></nav>
 </div><script>/*CORE*/
 var BANDS = [0.1, 0.25, 0.5], POINTS = [100, 60, 25, 0], SQUARES = ["🟩","🟨","🟧","⬜"];
 var BELOW = [0.8, 0.62, 0.45], ABOVE = [1.2, 1.45, 1.8], GAP = 1.2;

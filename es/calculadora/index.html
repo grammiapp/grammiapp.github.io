@@ -6,7 +6,7 @@
 <meta name="apple-itunes-app" content="app-id=6815835582">
 <meta property="og:type" content="website"><meta property="og:title" content="Calculadora de calorías y proteínas: tu objetivo diario · Grammi"><meta property="og:description" content="Calculadora gratis de calorías y proteínas: calorías diarias, proteínas, carbohidratos y grasas según tu edad, altura, peso, actividad y objetivo.">
 <meta property="og:url" content="https://grammiapp.com/es/calculadora/"><meta property="og:image" content="https://grammiapp.com/icon.png">
-<link rel="icon" href="/icon.png"><meta name="theme-color" content="#2F7A4F">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
 <style>
 :root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
@@ -104,10 +104,17 @@ label{font-weight:700;font-size:15px}
 .list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
 .progress{color:var(--muted);font-weight:700;font-size:14px}
 @media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
-</style></head><body><div class="wrap">
-<header><a class="brand" href="/?lang=es"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/calculator/" hreflang="en" lang="en">EN</a><span>ES</span><a href="/tr/hesaplayici/" hreflang="tr" lang="tr">TR</a></div>
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+</style></head><body><a class="skip" href="#main">Saltar al contenido</a><div class="wrap">
+<header><a class="brand" href="/es/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><a href="/calculator/" hreflang="en" lang="en">EN</a><span>ES</span><a href="/tr/hesaplayici/" hreflang="tr" lang="tr">TR</a></div>
 <nav class="top"><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/" aria-current="page">Calculadora</a></nav></header>
-<main><h1>🧮 Calculadora de calorías y proteínas</h1><p class="muted">Calcula cuántas calorías comer al día y cuánta proteína, carbohidratos y grasa te tocan, con la misma fórmula que usa Grammi para tu primer objetivo.</p><form id="calc" class="card" onsubmit="return false">
+<main id="main"><h1>🧮 Calculadora de calorías y proteínas</h1><p class="muted">Calcula cuántas calorías comer al día y cuánta proteína, carbohidratos y grasa te tocan, con la misma fórmula que usa Grammi para tu primer objetivo.</p><form id="calc" class="card" onsubmit="return false">
 <div class="seg" role="radiogroup"><label><input type="radio" name="units" value="metric" checked>Métrico</label><label><input type="radio" name="units" value="imperial">Imperial</label></div>
 <h2>Sobre ti</h2>
 <div class="seg" role="radiogroup" aria-label="Sexo"><label><input type="radio" name="sex" value="female" checked>Mujer</label><label><input type="radio" name="sex" value="male">Hombre</label></div>
@@ -128,7 +135,7 @@ label{font-weight:700;font-size:15px}
 <div class="macros3"><div><b id="outp">–</b>Proteínas</div><div><b id="outc">–</b>Carbohidratos</div><div><b id="outf">–</b>Grasas</div></div>
 <ul class="muted" id="outd" style="text-align:start"></ul></div></div><p class="src">Es una estimación inicial con una fórmula estándar, no un consejo médico. Cada cuerpo es distinto: registra lo que comes y tu peso unas semanas y ajusta. Si estás embarazada, tienes menos de 18 años o una condición de salud, consulta a un médico o nutricionista.</p><h2>Cómo funciona</h2><div class="card"><ul><li>El gasto en reposo usa la ecuación de Mifflin-St Jeor: 10 × peso (kg) + 6,25 × altura (cm) − 5 × edad, y luego +5 en hombres o −161 en mujeres.</li><li>El movimiento diario lo multiplica: sobre todo sentado ×1,2, poco activo ×1,375, moderadamente activo ×1,55, muy activo ×1,725.</li><li>Tu objetivo lo ajusta: 1 kg de peso corporal equivale a unas 7700 kcal, repartidas en una semana. El objetivo nunca baja de 1200 kcal.</li><li>La proteína sale de tu peso: 1,8 g/kg para perder peso, 2 g/kg para ganar músculo, 1,6 g/kg en los demás casos. La grasa es el 25 % de las calorías y los carbohidratos completan el resto.</li></ul></div></main>
 <div class="card cta"><h2>Cumple tu objetivo con Grammi</h2><p class="muted">Escaneo de códigos gratis, sin anuncios y sin cuenta. Tu diario se queda en tu iPhone.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_calc&amp;mt=8">Descarga Grammi en el App Store</a></div>
-<nav class="links"><a href="/?lang=es">Grammi</a><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/">Calculadora</a><a href="/privacy.html?lang=es">Privacidad</a><a href="/support.html?lang=es">Ayuda</a></nav>
+<nav class="links"><a href="/es/">Grammi</a><a href="/es/calorias/">Calorías</a><a href="/es/juego/">Juego diario</a><a href="/es/calculadora/">Calculadora</a><a href="/privacy.html?lang=es">Privacidad</a><a href="/support.html?lang=es">Ayuda</a></nav>
 </div><script>/*CORE*/
 var ACT = {"sedentary": 1.2, "light": 1.375, "moderate": 1.55, "active": 1.725}, AIM = {"lose": [-0.5, 1.8], "gainLean": [0.25, 2.0], "gain": [0.25, 1.6], "maintain": [0.0, 1.6]}, LB = 2.2046226218, IN = 2.54, KPK = 7700.0, FLOOR = 1200.0;
 var PACES = { metric: [-0.75, -0.5, -0.25, 0, 0.25], imperial: [-1.5, -1.0, -0.5, 0, 0.5] };

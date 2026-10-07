@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grammi: 칼로리 기록, 광고는 절대 없이.</title>
+<meta name="description" content="번거롭지 않은 칼로리 계산기. 무제한 바코드 스캔, 무료 · 광고 없음, 계정 없음 · 식단 일지는 iPhone에만 저장">
+<link rel="canonical" href="https://grammiapp.com/ko/"><link rel="alternate" hreflang="en" href="https://grammiapp.com/"><link rel="alternate" hreflang="tr" href="https://grammiapp.com/tr/"><link rel="alternate" hreflang="es" href="https://grammiapp.com/es/"><link rel="alternate" hreflang="pt-BR" href="https://grammiapp.com/pt-br/"><link rel="alternate" hreflang="pt-PT" href="https://grammiapp.com/pt-pt/"><link rel="alternate" hreflang="fr" href="https://grammiapp.com/fr/"><link rel="alternate" hreflang="de" href="https://grammiapp.com/de/"><link rel="alternate" hreflang="it" href="https://grammiapp.com/it/"><link rel="alternate" hreflang="ru" href="https://grammiapp.com/ru/"><link rel="alternate" hreflang="ar" href="https://grammiapp.com/ar/"><link rel="alternate" hreflang="id" href="https://grammiapp.com/id/"><link rel="alternate" hreflang="ja" href="https://grammiapp.com/ja/"><link rel="alternate" hreflang="ko" href="https://grammiapp.com/ko/"><link rel="alternate" hreflang="x-default" href="https://grammiapp.com/">
+<meta name="apple-itunes-app" content="app-id=6815835582">
+<meta property="og:type" content="website"><meta property="og:title" content="Grammi: 칼로리 기록, 광고는 절대 없이."><meta property="og:description" content="번거롭지 않은 칼로리 계산기. 무제한 바코드 스캔, 무료 · 광고 없음, 계정 없음 · 식단 일지는 iPhone에만 저장">
+<meta property="og:url" content="https://grammiapp.com/ko/"><meta property="og:image" content="https://grammiapp.com/icon.png">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
+<style>
+:root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
+:root[data-theme="dark"]{--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans Arabic",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none;font-weight:800;font-size:20px}
+.brand img{width:44px;height:44px;border-radius:11px}
+select{font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 10px;max-width:100%}
+h1{font-size:34px;line-height:1.15;margin:8px 0 6px;letter-spacing:-.01em}
+h2{font-size:19px;margin:28px 0 8px}
+.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:14px 0}
+.lead{font-size:19px;font-weight:600;background:var(--accent-soft);border:0}
+ul{padding-inline-start:20px;margin:6px 0}li{margin:6px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;list-style:none}summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:inline-end;color:var(--accent);font-weight:800}details[open] summary::after{content:"–"}
+details p{margin:10px 0 0}
+a{color:var(--accent)}
+.mail{display:inline-block;margin-top:6px;font-weight:700;font-size:18px;word-break:break-all}
+nav.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:15px}
+.hero{text-align:center;padding:24px 0 8px}.hero img{width:128px;height:128px;border-radius:29px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.hero h1{font-size:40px;margin-top:18px}.points{list-style:none;padding:0;display:grid;gap:10px;margin:22px 0}
+.points li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-weight:600}
+.points li::before{content:"✓";color:var(--accent);font-weight:800;margin-inline-end:10px}
+.badge{text-decoration:none;display:inline-block;background:var(--ink);color:var(--bg);border-radius:12px;padding:10px 18px;font-weight:700}
+[hidden]{display:none!important}
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+
+:root{--forest:#1A4D33;--on-accent:#fff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--on-accent:#0F1512}}:root[data-theme="dark"]{--on-accent:#0F1512}
+.home .wrap{max-width:1080px;padding-top:16px}
+.hd{margin-bottom:4px;gap:8px 16px}.hd .brand{font-size:21px}.hd .brand img{width:40px;height:40px;border-radius:10px}
+.hd nav{order:3;flex-basis:100%;display:flex;gap:2px 18px;flex-wrap:wrap;font-size:15px;font-weight:700}.hd nav a{text-decoration:none;padding:6px 0}
+details.lang{position:relative;background:none;border:0;padding:0;margin:0}
+details.lang summary{display:flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:15px}
+details.lang summary::after{content:"▾";float:none;color:var(--muted);font-weight:400}details.lang[open] summary::after{content:"▴"}
+details.lang ul{position:absolute;inset-inline-end:0;top:calc(100% + 6px);z-index:5;list-style:none;margin:0;padding:6px;min-width:230px;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 1px 2px rgb(20 40 30/.06),0 12px 32px rgb(20 40 30/.16)}
+details.lang li{margin:0}details.lang a{display:block;padding:10px 12px;border-radius:10px;color:var(--ink);text-decoration:none;font-weight:600}
+details.lang a:hover{background:var(--accent-soft)}details.lang a[aria-current]{color:var(--accent);font-weight:800}
+.intro{display:grid;gap:28px;align-items:center;padding:28px 0 44px}
+.intro h1{font-size:clamp(38px,8.5vw,66px);line-height:1.03;letter-spacing:-.03em;margin:0 0 22px}
+.store{display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:0 24px;border-radius:14px;background:var(--accent);color:var(--on-accent);font-weight:800;font-size:17px;text-decoration:none;box-shadow:0 1px 2px rgb(20 40 30/.1),0 10px 24px -8px rgb(47 122 79/.55)}
+.store:hover{filter:brightness(1.07)}
+.ticks{list-style:none;padding:0;margin:0;display:grid;gap:10px}.intro .ticks{margin:0 0 28px;font-size:18px}
+.ticks li{display:flex;gap:10px;align-items:flex-start;margin:0;font-weight:600}
+.ticks li::before{content:"✓";flex:none;display:grid;place-items:center;width:22px;height:22px;margin-top:2px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-size:13px;font-weight:900}
+.art{display:grid;place-items:center;background:radial-gradient(closest-side,var(--accent-soft),transparent)}
+.phone{width:min(270px,70vw);padding:8px;border-radius:46px;background:#0B100D;box-shadow:0 0 0 1px var(--line),0 28px 50px -24px rgb(15 35 25/.55)}
+.phone img{display:block;width:100%;height:auto;border-radius:38px}
+.row{display:grid;gap:26px;align-items:center;justify-items:center;padding:44px 0;border-top:1px solid var(--line)}
+.row-txt{justify-self:stretch}
+.tag{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:14px;font-weight:800}
+.row h2,.sec{font-size:clamp(28px,5vw,44px);line-height:1.08;letter-spacing:-.025em;margin:12px 0 10px}
+.row p{font-size:19px;color:var(--muted);margin:0;max-width:30em}
+.pro,.plans,.tools{padding:44px 0 8px;border-top:1px solid var(--line)}.pro .sec,.plans .sec,.tools .sec{margin-top:0}
+.gallery{list-style:none;display:grid;grid-auto-flow:column;grid-auto-columns:min(62vw,240px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:16px;padding:6px 16px 22px;margin:14px -16px 0;-webkit-overflow-scrolling:touch}
+.gallery li{scroll-snap-align:start;margin:0}
+.gallery .phone{width:100%;padding:6px;border-radius:36px}.gallery .phone img{border-radius:30px}
+.gallery h3{font-size:18px;line-height:1.25;margin:16px 0 4px}.gallery p{font-size:15px;color:var(--muted);margin:0}
+.plan-grid{display:grid;gap:14px;margin-top:18px}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px 22px 24px}.plan.free{border:2px solid var(--accent)}
+.plan h3{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:0;font-size:22px}
+.plan h3 small{font-size:15px;color:var(--accent);font-weight:800}.plan .ticks{margin-top:16px}.plan .ticks li{font-weight:500}
+.game-card{display:block;margin-top:18px;padding:24px;border-radius:22px;background:var(--accent-soft);border:1px solid transparent;color:var(--ink);text-decoration:none}
+.game-card .sq{display:block;font-size:26px;letter-spacing:3px;margin-bottom:10px}
+.game-card b{display:block;font-size:24px;line-height:1.2;margin-bottom:6px}.game-card span{display:block;color:var(--muted)}
+.game-card .go{color:var(--accent);font-weight:800;margin-top:14px}
+.tool-links{display:grid;gap:12px;margin-top:12px}
+.tool-links a{display:block;padding:18px 20px;border-radius:18px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none}
+.tool-links b{display:block;font-size:18px;margin-bottom:2px}.tool-links span{color:var(--muted);font-size:15px}
+.tool-links a:hover,.game-card:hover{border-color:var(--accent)}
+.band{margin:48px 0 0;padding:30px 26px;border-radius:24px;background:var(--forest);color:#DCEBE1}
+.band h2{color:#fff;font-size:clamp(24px,4vw,34px);line-height:1.15;margin:0 0 10px}.band p{margin:0 0 14px;max-width:60ch}
+.band a{color:#fff;font-weight:800}
+.final{text-align:center;padding:52px 0 8px}.final h2{font-size:clamp(24px,4vw,34px);line-height:1.2;margin:0 auto 22px;max-width:22em}
+.home .arr{display:inline}[dir=rtl] .home .arr{display:inline-block;transform:scaleX(-1)}   /* inline-block önünden satır bölünür → yalnız RTL'de */
+:lang(ko){word-break:keep-all}
+@media (min-width:760px){.hd nav{order:0;flex-basis:auto;margin-inline-start:auto}.plan-grid{grid-template-columns:1fr 1fr}}
+@media (min-width:900px){
+.intro{grid-template-columns:1.15fr .85fr;padding:48px 0 64px}.phone{width:300px}
+.row{grid-template-columns:1fr 1fr;padding:64px 0}.row:nth-of-type(even) .row-txt{order:2}
+.gallery{display:flex;flex-wrap:wrap;justify-content:center;overflow:visible;margin:18px 0 0;padding:6px 0 0;gap:40px 28px}
+.gallery li{width:calc((100% - 56px)/3)}.gallery.g4 li{width:calc((100% - 84px)/4)}
+.tools-in{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;align-items:start}
+}
+</style></head><body class="home"><a class="skip" href="#main">본문으로 건너뛰기</a><div class="wrap">
+<header class="hd"><a class="brand" href="/ko/" translate="no"><img src="/icon.png" alt="" width="40" height="40">Grammi</a><details class="lang"><summary><span aria-hidden="true">🌐</span> 한국어</summary><ul><li><a href="/?lang=en" hreflang="en" lang="en">English</a></li><li><a href="/tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/es/" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/pt-pt/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="/ru/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ar/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/ja/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" aria-current="page">한국어</a></li></ul></details></header>
+<main id="main"><section class="intro"><div><h1>칼로리 기록,<br>광고는 절대 없이.</h1><ul class="ticks"><li>무제한 바코드 스캔, 무료</li><li>광고 없음, 계정 없음</li><li>식단 일지는 iPhone에만 저장</li></ul><a class="store" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web&amp;mt=8"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></svg><span>App Store에서 다운로드</span></a></div><div class="art"><div class="phone"><img src="/img/ko/today.webp" width="600" height="1304" alt="" fetchpriority="high"></div></div></section><div class="rows"><article class="row"><div class="row-txt"><span class="tag">무료</span><h2>스캔하면<br>바로 알아요.</h2><p>바코드를 비추면 1초 만에 영양 정보가.</p></div><div class="phone"><img src="/img/ko/product.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div></article><article class="row"><div class="row-txt"><span class="tag">무료</span><h2>데이터베이스에 없나요?<br>성분표를 찍으세요.</h2><p>Grammi가 영양 성분표를 읽고 기억해요.</p></div><div class="phone"><img src="/img/ko/label.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div></article></div><section class="pro" aria-labelledby="pro-h"><h2 class="sec" id="pro-h" translate="no">Grammi Pro</h2><ul class="gallery"><li><div class="phone"><img src="/img/ko/kitchen.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div><h3>주머니 속<br>나만의 주방</h3><p>목표에 맞춘 레시피, 실제 식품으로 계산한 칼로리.</p></li><li><div class="phone"><img src="/img/ko/trends.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div><h3>체중을 움직이는<br>진짜 원인이 보여요</h3><p>8가지 차트, 또는 나만의 차트.</p></li><li><div class="phone"><img src="/img/ko/game.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div><h3>칼로리 감각을<br>키워 보세요</h3><p>내 식사를 맞힐수록 감각이 좋아져요.</p></li><li><div class="phone"><img src="/img/ko/progress.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div><h3>나를 알아 가는<br>목표</h3><p>내 데이터로 계산한 실제 소모량.</p></li><li><div class="phone"><img src="/img/ko/fasting.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div><h3>단식과 라마단,<br>기본 탑재</h3><p>수후르와 이프타르 시간을 오프라인으로 계산해요.</p></li><li><div class="phone"><img src="/img/ko/plate.webp" width="600" height="1304" alt="" loading="lazy" decoding="async"></div><h3>접시를<br>찍으세요.</h3><p>음식을 하나씩 찾아 칼로리를 알려 줘요. iPhone 15 Pro 이후 모델.</p></li></ul></section><section class="plans" aria-labelledby="plans-h"><h2 class="sec" id="plans-h">무료 기능과 유료 기능</h2><div class="plan-grid"><div class="plan free"><h3>무료<small>기간 제한 없음</small></h3><ul class="ticks"><li>바코드 스캔, 하루 제한 없음</li><li>모든 식사 기록, 평생 무료: 검색, 직접 기록, 일일 합계</li><li>나만의 목표, 체중, 물, 연속 기록</li><li>최근 7일 차트</li><li>레시피, 위젯, Apple Watch 및 Siri</li><li>광고 없음, 계정 없음, 데이터는 휴대폰에만</li></ul></div><div class="plan"><h3 translate="no">Grammi Pro</h3><ul class="ticks"><li>식사 사진 찍기 — 사진 한 장으로 모든 음식을 기록(iOS 27)</li><li>먹은 음식과 체중으로 조정되는 적응형 목표</li><li>30일·90일 차트</li><li>주간 도전 과제, 최고 기록, 칼로리 맞히기 게임</li><li>탄단지 플랜, 단식 타이머, 라마단 모드</li><li>연간 및 평생 이용권은 가족 공유 지원 — 최대 6명</li></ul></div></div></section><section class="band" aria-labelledby="priv-h"><h2 id="priv-h">기기에 남는 정보</h2><p>Grammi는 개인정보를 수집하지 않습니다. 계정, 분석 도구, 광고, 추적이 모두 없습니다.</p><a href="/privacy.html?lang=ko">개인정보 처리방침&nbsp;<span class="arr" aria-hidden="true">→</span></a></section><section class="final"><h2>번거롭지 않은 칼로리 계산기.</h2><a class="store" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web&amp;mt=8"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></svg><span>App Store에서 다운로드</span></a></section></main>
+<footer><nav class="links"><a href="/privacy.html?lang=ko">개인정보 처리방침</a><a href="/support.html?lang=ko">도움말 및 지원</a></nav></footer>
+</div></body></html>
