@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Devinez les calories : 5 aliments par jour · Grammi</title>
+<meta name="description" content="Un jeu quotidien et gratuit : devinez les calories de 5 aliments courants. Les mêmes pour tout le monde, de nouveaux à minuit. Partagez votre score.">
+<link rel="canonical" href="https://grammiapp.com/fr/jeu/"><link rel="alternate" hreflang="en" href="https://grammiapp.com/game/"><link rel="alternate" hreflang="tr" href="https://grammiapp.com/tr/oyun/"><link rel="alternate" hreflang="es" href="https://grammiapp.com/es/juego/"><link rel="alternate" hreflang="pt-BR" href="https://grammiapp.com/pt-br/jogo/"><link rel="alternate" hreflang="pt-PT" href="https://grammiapp.com/pt-pt/jogo/"><link rel="alternate" hreflang="fr" href="https://grammiapp.com/fr/jeu/"><link rel="alternate" hreflang="de" href="https://grammiapp.com/de/spiel/"><link rel="alternate" hreflang="it" href="https://grammiapp.com/it/gioco/"><link rel="alternate" hreflang="ru" href="https://grammiapp.com/ru/igra/"><link rel="alternate" hreflang="ar" href="https://grammiapp.com/ar/game/"><link rel="alternate" hreflang="id" href="https://grammiapp.com/id/permainan/"><link rel="alternate" hreflang="ja" href="https://grammiapp.com/ja/game/"><link rel="alternate" hreflang="ko" href="https://grammiapp.com/ko/game/"><link rel="alternate" hreflang="x-default" href="https://grammiapp.com/game/">
+<meta name="apple-itunes-app" content="app-id=6815835582">
+<meta property="og:type" content="website"><meta property="og:title" content="Devinez les calories : 5 aliments par jour · Grammi"><meta property="og:description" content="Un jeu quotidien et gratuit : devinez les calories de 5 aliments courants. Les mêmes pour tout le monde, de nouveaux à minuit. Partagez votre score.">
+<meta property="og:url" content="https://grammiapp.com/fr/jeu/"><meta property="og:image" content="https://grammiapp.com/icon.png">
+<link rel="icon" href="/icon.png"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F7F3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F1512">
+<style>
+:root{--bg:#F4F7F3;--card:#FFFFFF;--ink:#1B2A21;--muted:#5D6B62;--line:#E1E8E2;--accent:#2F7A4F;--accent-soft:#E3F0E6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}}
+:root[data-theme="dark"]{--bg:#0F1512;--card:#18201B;--ink:#E8EFE9;--muted:#9AA89F;--line:#27322B;--accent:#6FC08F;--accent-soft:#1D2C22}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans Arabic",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none;font-weight:800;font-size:20px}
+.brand img{width:44px;height:44px;border-radius:11px}
+select{font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 10px;max-width:100%}
+h1{font-size:34px;line-height:1.15;margin:8px 0 6px;letter-spacing:-.01em}
+h2{font-size:19px;margin:28px 0 8px}
+.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:14px 0}
+.lead{font-size:19px;font-weight:600;background:var(--accent-soft);border:0}
+ul{padding-inline-start:20px;margin:6px 0}li{margin:6px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;list-style:none}summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:inline-end;color:var(--accent);font-weight:800}details[open] summary::after{content:"–"}
+details p{margin:10px 0 0}
+a{color:var(--accent)}
+.mail{display:inline-block;margin-top:6px;font-weight:700;font-size:18px;word-break:break-all}
+nav.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:15px}
+.hero{text-align:center;padding:24px 0 8px}.hero img{width:128px;height:128px;border-radius:29px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.hero h1{font-size:40px;margin-top:18px}.points{list-style:none;padding:0;display:grid;gap:10px;margin:22px 0}
+.points li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-weight:600}
+.points li::before{content:"✓";color:var(--accent);font-weight:800;margin-inline-end:10px}
+.badge{text-decoration:none;display:inline-block;background:var(--ink);color:var(--bg);border-radius:12px;padding:10px 18px;font-weight:700}
+[hidden]{display:none!important}
+
+header{margin-bottom:18px}
+nav.top{flex-basis:100%;display:flex;gap:6px 14px;flex-wrap:wrap;font-size:15px;font-weight:700}
+nav.top a{text-decoration:none}nav.top a[aria-current]{color:var(--ink)}
+.langs{font-size:14px;display:flex;gap:10px}.langs a{text-decoration:none;font-weight:700}.langs span{color:var(--muted);font-weight:700}
+details.lmenu{position:relative;background:none;border:0;padding:0;margin:0}
+.lmenu summary{cursor:pointer;list-style:none;font-weight:700;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.lmenu summary::after{content:"▾";float:none;margin-inline-start:6px;color:var(--muted);font-weight:400}.lmenu[open] summary::after{content:"▴"}
+.lmenu summary::-webkit-details-marker{display:none}
+.lmenu ul{position:absolute;inset-inline-end:0;top:calc(100% + 6px);z-index:5;list-style:none;margin:0;padding:6px;min-width:210px;
+background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.14)}
+.lmenu li{margin:0}.lmenu li a{display:block;padding:8px 12px;border-radius:9px;color:var(--ink);font-weight:600;text-decoration:none}.lmenu li a:hover{background:var(--accent-soft)}.lmenu li a[aria-current]{background:var(--accent-soft)}
+.crumbs{font-size:14px;color:var(--muted);margin:0 0 4px}.crumbs a{text-decoration:none}
+h1{font-size:30px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:end;white-space:nowrap}
+th{font-size:13px;color:var(--muted);font-weight:700}
+th:first-child,td:first-child{text-align:start;white-space:normal}
+td.sub{padding-inline-start:18px;color:var(--muted)}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:var(--line)}
+.bar i{display:block}.c1{background:var(--accent)}.c2{background:#E0A43A}.c3{background:#C8664A}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;font-weight:600}
+.legend b{display:inline-block;width:10px;height:10px;border-radius:3px;margin-inline-end:6px}
+.cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:10px 0}
+.cmp a{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.cmp a span{display:block;color:var(--muted);font-size:14px}
+.cta{text-align:center;background:var(--accent-soft);border:0;margin-top:30px}
+.cta h2{margin:4px 0 6px}.cta p{margin:0 0 14px}
+.src{font-size:14px;color:var(--muted)}
+.az h2{font-size:17px;margin:22px 0 4px;color:var(--accent)}
+.az ul{list-style:none;padding:0;margin:0}.az li{margin:0;border-bottom:1px solid var(--line)}
+.az a{display:flex;justify-content:space-between;gap:12px;padding:9px 2px;text-decoration:none;color:var(--ink)}
+.az a span{color:var(--muted);font-size:14px;white-space:nowrap}
+.pill{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 14px;margin:4px 4px 0 0;font-weight:700;text-decoration:none}
+button,.btn{font:inherit;font-weight:700;border:0;border-radius:12px;padding:12px 18px;background:var(--accent);color:var(--on-accent);cursor:pointer}
+:root{--on-accent:#fff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--on-accent:#0F1512}}:root[data-theme="dark"]{--on-accent:#0F1512}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 6px}
+.opt{font-size:22px;padding:18px 6px;background:var(--card);color:var(--ink);border:2px solid var(--line);font-variant-numeric:tabular-nums;min-height:64px;transition:transform .08s ease-out}
+.opt:active:not([disabled]){transform:scale(.95)}@media (prefers-reduced-motion:reduce){.opt{transition:none}.opt:active:not([disabled]){transform:none}}
+.snd{display:block;margin:0 0 10px auto;margin-inline-start:auto;margin-inline-end:0;padding:6px 14px;font-size:15px;font-weight:600;border-radius:999px;background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.opt:hover:not([disabled]){border-color:var(--accent)}.opt[disabled]{opacity:1;cursor:default}.opt.dim{opacity:.4}
+.opt.b0{background:#2F9E5A;border-color:#2F9E5A;color:#fff}.opt.b1{background:#F2C94C;border-color:#F2C94C;color:#1B2A21}
+.opt.b2{background:#F2994A;border-color:#F2994A;color:#1B2A21}.opt.b3{background:#8C9590;border-color:#8C9590;color:#fff}
+button[disabled]{opacity:.45;cursor:default}
+button.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+input[type=number]{font:inherit;font-size:20px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:100%;max-width:100%}
+input[type=range]{width:100%;accent-color:var(--accent);margin:14px 0}
+select{font-size:17px;padding:10px 36px 10px 12px;width:100%;-webkit-appearance:none;appearance:none;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238C9590' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center}
+#rates{display:grid;grid-template-columns:repeat(5,1fr)}#rates label{min-width:0;padding:9px 2px}
+label{font-weight:700;font-size:15px}
+.row{display:flex;gap:10px;align-items:flex-end}.row>*{flex:1;min-width:0}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+.seg label{flex:1 1 auto;font-weight:600;text-align:center;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 8px;cursor:pointer;min-width:56px}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.seg label:has(input:focus-visible){outline:2px solid var(--accent)}
+.aims{display:grid;gap:8px;margin:6px 0}
+.aims label{display:block;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 14px;cursor:pointer;font-weight:700}
+.aims label small{display:block;color:var(--muted);font-weight:500;font-size:14px}
+.aims label:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.aims input{position:absolute;opacity:0;pointer-events:none}
+.field{margin:12px 0}
+.big{font-size:52px;font-weight:800;line-height:1.05;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.macros3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 6px;text-align:center}
+.macros3 div{background:var(--bg);border-radius:12px;padding:10px 4px}.macros3 b{display:block;font-size:22px}
+.center{text-align:center}
+.food-emoji{font-size:64px;line-height:1.1}
+.qname{font-size:24px;font-weight:800;margin:6px 0 0}
+.portion{color:var(--muted);font-weight:600}
+.reveal{font-size:20px;font-weight:700;margin:14px 0 4px}
+.squares{font-size:30px;letter-spacing:4px;margin:8px 0}
+.list{list-style:none;padding:0;margin:12px 0;text-align:start}.list li{display:flex;gap:10px;align-items:baseline;border-bottom:1px solid var(--line);padding:8px 0;margin:0}
+.list li span{color:var(--muted);font-size:14px;margin-inline-start:auto;white-space:nowrap}
+.progress{color:var(--muted);font-weight:700;font-size:14px}
+@media (max-width:420px){h1{font-size:26px}table{font-size:14px}th,td{padding:7px 3px}.card.tw{padding:12px 10px}.big{font-size:44px}}
+
+.skip{position:absolute;top:8px;inset-inline-start:16px;z-index:9;transform:translateY(-200%);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:10px;border:1px solid var(--line)}
+.skip:focus{transform:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a,button,summary,select,input{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+select,input,textarea{font-size:16px}
+:root{color-scheme:light dark}
+</style></head><body><a class="skip" href="#main">Aller au contenu</a><div class="wrap">
+<header><a class="brand" href="/fr/"><img src="/icon.png" alt="" width="44" height="44">Grammi</a><div class="langs"><details class="lmenu"><summary><span aria-hidden="true">🌐</span> Français</summary><ul><li><a href="/game/" hreflang="en" lang="en">English</a></li><li><a href="/tr/oyun/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/es/juego/" hreflang="es" lang="es">Español</a></li><li><a href="/pt-br/jogo/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/pt-pt/jogo/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/fr/jeu/" hreflang="fr" lang="fr" aria-current="page">Français</a></li><li><a href="/de/spiel/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/it/gioco/" hreflang="it" lang="it">Italiano</a></li><li><a href="/ru/igra/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ar/game/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/permainan/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/ja/game/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/game/" hreflang="ko" lang="ko">한국어</a></li></ul></details></div>
+<nav class="top"></nav></header>
+<main id="main"><h1>🎯 Devinez les calories</h1><p class="muted">Cinq aliments, une portion chacun, quatre réponses. Choisissez le nombre de calories qui vous semble juste. Tout le monde joue avec les mêmes aliments, et de nouveaux arrivent à minuit.</p><div id="game"><noscript><div class="card">Ce jeu nécessite JavaScript.</div></noscript></div><h2>Comment les points sont calculés</h2><div class="card"><p style="margin:0">Votre choix est noté selon son écart avec le vrai chiffre, en pourcentage : une réponse proche rapporte aussi des points. Moins de 10 % d’écart : 100 points · moins de 25 % : 60 · moins de 50 % : 25 · au-delà : 0. C’est la même règle que le jeu des calories de l’app Grammi.</p><p class="src">Les calories correspondent à la portion indiquée, d’après l’USDA FoodData Central.</p></div></main>
+<div class="card cta"><h2>Notez ce que vous mangez vraiment avec Grammi</h2><p class="muted">Scan des codes-barres gratuit, sans pub et sans compte. Votre journal reste sur votre iPhone.</p><a class="badge" href="https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&amp;ct=web_game&amp;mt=8">Télécharger Grammi sur l’App Store</a></div>
+<nav class="links"><a href="/fr/">Grammi</a><a href="/fr/jeu/">Jeu du jour</a><a href="/privacy.html?lang=fr">Politique de confidentialité</a><a href="/support.html?lang=fr">Aide et assistance</a></nav>
+</div><script>/*CORE*/
+var BANDS = [0.1, 0.25, 0.5], POINTS = [100, 60, 25, 0], SQUARES = ["🟩","🟨","🟧","⬜"];
+var BELOW = [0.8, 0.62, 0.45], ABOVE = [1.2, 1.45, 1.8], GAP = 1.2;
+var EPOCH = Date.UTC(2026, 9, 7);
+function gErr(guess, actual) { return actual > 0 ? Math.abs(guess - actual) / actual : 1; }
+function gBand(guess, actual) { var e = gErr(guess, actual); for (var i = 0; i < BANDS.length; i++) { if (e < BANDS[i]) return i; } return BANDS.length; }
+function dayNumber(d) { return Math.round((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - EPOCH) / 864e5) + 1; }
+function mulberry(a) { return function () { a = (a + 0x6D2B79F5) | 0; var t = Math.imul(a ^ (a >>> 15), 1 | a);
+  t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+function perm(n, seed) { var r = mulberry(seed * 2654435761 + 12345), a = []; for (var i = 0; i < n; i++) a.push(i);
+  for (i = n - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+function todays(n, day) { var out = [], k0 = (Math.max(1, day) - 1) * 5; for (var i = 0; i < 5; i++) { var k = k0 + i;
+  out.push(perm(n, Math.floor(k / n))[k % n]); } return out; }
+function r5(x) { return Math.max(5, Math.round(x / 5) * 5); }
+// doğru cevap (5'e yuvarlı) + k tanesi altta, 3-k tanesi üstte çeldirici; komşular arasında en az GAP oranı
+function ladder(T, k) { var t = r5(T), out = [t], prev = t, i, v;
+  for (i = 0; i < k; i++) { v = r5(T * BELOW[i]); while (v > 5 && prev / v < GAP) v -= 5;
+    if (prev / v < GAP) return ladder(T, k - 1); out.push(v); prev = v; }
+  prev = t;
+  for (i = 0; i < 3 - k; i++) { v = r5(T * ABOVE[i]); while (v / prev < GAP) v += 5; out.push(v); prev = v; }
+  return out; }
+function choices(T, day, q) { var r = mulberry(Math.max(1, day) * 7919 + q * 104729 + 1), o = ladder(T, Math.floor(r() * 4));
+  for (var i = o.length - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)), x = o[i]; o[i] = o[j]; o[j] = x; } return o; }
+/*END*/
+(function(){
+var POOL = [["Œuf dur", "🥚", "Grande taille", "50", 78], ["Œuf au plat", "🍳", "Grande taille", "46", 90], ["Œufs brouillés", "🍳", "1 œuf", "61", 91], ["Omelette", "🍳", "1 œuf", "61", 94], ["Lait entier", "🥛", "1 verre", "244", 149], ["Yaourt nature (lait entier)", "🥣", "1 tasse", "245", 149], ["Yaourt grec 0%", "🥣", "1 portion", "170", 100], ["Cheddar", "🧀", "1 tranche", "28", 113], ["Mozzarella", "🧀", "1 tranche", "28,3", 85], ["Feta", "🧀", "1 tranche", "38", 101], ["Parmesan", "🧀", "1 c. à soupe", "5", 20], ["Beurre", "🧈", "1 c. à soupe", "14,2", 102], ["Blanc de poulet (cuit)", "🍗", "1 filet", "172", 284], ["Aile de poulet (cuite)", "🍗", "1 pièce", "40", 102], ["Poulet frit (cuisse)", "🍗", "1 pièce", "62", 162], ["Dinde rôtie", "🦃", "1 portion", "85", 135], ["Bœuf haché (cuit)", "🥩", "1 portion", "85", 218], ["Steak de bœuf (grillé)", "🥩", "1 portion", "85", 218], ["Côtelette d'agneau (grillée)", "🍖", "1 pièce", "64", 202], ["Bacon (cuit)", "🥓", "1 tranche", "8,1", 44], ["Jambon blanc", "🍖", "1 tranche", "28", 45], ["Salami", "🍖", "1 tranche", "10", 41], ["Saucisse de Francfort (bœuf)", "🌭", "1 pièce", "48", 155], ["Saumon (cuit)", "🐟", "1 filet", "178", 367], ["Thon au naturel (boîte)", "🐟", "1 boîte", "165", 142], ["Cabillaud (cuit)", "🐟", "1 filet", "180", 189], ["Tilapia (cuit)", "🐟", "1 filet", "87", 111], ["Sardines à l'huile (boîte)", "🐟", "1 pièce", "12", 25], ["Crevettes (cuites)", "🦐", "1 portion", "85", 84], ["Riz blanc (cuit)", "🍚", "1 tasse", "158", 205], ["Boulgour (cuit)", "🌾", "1 tasse", "182", 151], ["Semoule de couscous (cuite)", "🌾", "1 tasse", "157", 176], ["Quinoa (cuit)", "🌾", "1 tasse", "185", 222], ["Porridge (à l'eau)", "🥣", "1 tasse", "234", 166], ["Pâtes (cuites)", "🍝", "1 tasse", "124", 196], ["Pain blanc", "🍞", "1 tranche", "29", 77], ["Pain pita", "🫓", "1 pièce", "60", 165], ["Baguette", "🥖", "1 portion", "28,4", 77], ["Bagel", "🥯", "1 pièce", "99", 261], ["Croissant", "🥐", "Taille moyenne", "57", 231], ["Pétales de maïs", "🥣", "1 tasse", "28", 108], ["Granola", "🥣", "1 tasse", "122", 597], ["Pop-corn", "🍿", "1 tasse", "8", 31], ["Lentilles (cuites)", "🫘", "1 tasse", "198", 230], ["Pois chiches (cuits)", "🫘", "1 tasse", "164", 269], ["Haricots noirs (cuits)", "🫘", "1 tasse", "172", 227], ["Houmous", "🫘", "1 c. à soupe", "15", 36], ["Falafel", "🧆", "1 pièce", "17", 57], ["Pomme de terre (bouillie)", "🥔", "Taille moyenne", "167", 144], ["Purée de pommes de terre", "🥔", "1 tasse", "210", 237], ["Patate douce (au four)", "🍠", "Taille moyenne", "114", 103], ["Tomate", "🍅", "Taille moyenne", "123", 22], ["Carotte", "🥕", "Taille moyenne", "61", 25], ["Haricots verts", "🫛", "1 tasse", "100", 31], ["Maïs doux (cuit)", "🌽", "Petite taille", "89", 85], ["Avocat", "🥑", "1 pièce", "201", 322], ["Banane", "🍌", "Taille moyenne", "118", 105], ["Pomme", "🍎", "Taille moyenne", "182", 95], ["Orange", "🍊", "Taille moyenne", "131", 62], ["Raisin", "🍇", "1 tasse", "151", 104], ["Fraises", "🍓", "1 tasse", "152", 49], ["Myrtilles", "🫐", "1 tasse", "148", 84], ["Pastèque", "🍉", "1 tasse", "152", 46], ["Ananas", "🍍", "1 tasse", "165", 83], ["Mangue", "🥭", "1 pièce", "336", 202], ["Poire", "🍐", "Taille moyenne", "178", 101], ["Pêche", "🍑", "Taille moyenne", "150", 59], ["Cerises", "🍒", "1 tasse", "154", 97], ["Kiwi", "🥝", "1 pièce", "69", 42], ["Grenade", "🍎", "1 pièce", "282", 234], ["Dattes (medjool)", "🌴", "1 pièce", "24", 66], ["Raisins secs", "🍇", "1 tasse", "145", 434], ["Amandes", "🌰", "1 portion", "28,4", 164], ["Noix", "🌰", "1 portion", "28,4", 185], ["Pistaches", "🌰", "1 portion", "28,4", 159], ["Cacahuètes (grillées)", "🥜", "1 portion", "28,4", 166], ["Graines de chia", "🌱", "1 c. à soupe", "12", 58], ["Beurre de cacahuète", "🥜", "1 c. à soupe", "16", 96], ["Huile d'olive", "🫒", "1 c. à soupe", "13,5", 119], ["Miel", "🍯", "1 c. à soupe", "21", 64], ["Chocolat noir (70-85 %)", "🍫", "1 portion", "28,4", 170], ["Chocolat au lait", "🍫", "1 pièce", "44", 235], ["Pâte à tartiner chocolat-noisette", "🍫", "1 c. à soupe", "37", 199], ["Confiture de lait", "🍮", "1 c. à soupe", "19", 60], ["Café latte", "☕", "1 mug", "250", 108], ["Cappuccino", "☕", "1 mug", "180", 49], ["Café turc (sucré)", "☕", "1 petite tasse", "70", 20], ["Jus d'orange", "🧃", "1 verre", "249", 122], ["Soda au cola", "🥤", "1 boîte", "370", 155], ["Bière", "🍺", "1 boîte", "356", 153], ["Vin rouge", "🍷", "1 verre", "147", 125], ["Ayran", "🥛", "1 verre", "200", 73], ["Citronnade", "🍋", "1 portion", "248", 114], ["Chocolat chaud", "☕", "1 mug", "250", 228], ["Pizza au fromage", "🍕", "1 portion", "151", 405], ["Hamburger", "🍔", "1 pièce", "78", 232], ["Nuggets de poulet", "🍗", "1 pièce", "16", 49], ["Frites", "🍟", "Petite taille", "71", 222], ["Pancakes", "🥞", "1 pièce", "77", 175], ["Beignet (donut)", "🍩", "1 pièce", "45", 192], ["Muffin aux myrtilles", "🧁", "Taille moyenne", "113", 424], ["Cookies aux pépites de chocolat", "🍪", "1 pièce", "12,9", 63], ["Chips", "🥔", "1 portion", "28", 149], ["Glace à la vanille", "🍨", "1 portion", "66", 137], ["Gâteau au chocolat", "🍰", "1 tranche", "95", 352], ["Baklava", "🍯", "1 pièce", "40", 176], ["Tiramisu", "🍰", "1 pièce", "175", 618], ["Churros", "🥖", "Taille moyenne", "45", 189], ["Riz au lait", "🍚", "1 bol", "180", 236], ["Knafeh", "🍯", "1 pièce", "150", 542], ["Alfajor", "🍪", "1 pièce", "45", 185], ["Crêpe (nature)", "🥞", "1 pièce", "55", 123], ["Menemen", "🍳", "1 portion", "250", 265], ["Soupe de lentilles corail", "🍲", "1 bol", "250", 174], ["Riz pilaf", "🍚", "1 portion", "180", 306], ["Ragoût de haricots blancs (kuru fasulye)", "🫘", "1 portion", "300", 361], ["Kefta", "🍢", "1 pièce", "25", 66], ["Lahmacun", "🫓", "1 pièce", "120", 253], ["Börek au fromage", "🥟", "1 tranche", "150", 455], ["Gözleme fromage-épinards", "🫓", "1 pièce", "250", 595], ["Simit", "🥯", "1 pièce", "110", 347], ["Cacık (yaourt au concombre)", "🥒", "1 bol", "200", 96], ["Aubergines farcies à la viande (karnıyarık)", "🍆", "1 pièce", "200", 293], ["Mantı (raviolis turcs au yaourt)", "🥟", "1 portion", "300", 539], ["Kebab (döner)", "🥙", "1 pièce", "390", 812], ["Kebab İskender", "🥙", "1 portion", "370", 761], ["Kebab Adana", "🍢", "1 portion", "330", 700], ["Imam bayildi", "🍆", "1 pièce", "200", 310], ["Tortilla espagnole", "🍳", "1 portion", "150", 262], ["Gaspacho", "🍅", "1 bol", "250", 147], ["Empanada à la viande", "🥟", "1 pièce", "90", 231], ["Milanesa", "🥩", "1 pièce", "150", 418], ["Arepa", "🫓", "1 pièce", "100", 186], ["Tacos mexicains au bœuf", "🌮", "1 pièce", "100", 203], ["Riz au poulet (arroz con pollo)", "🍚", "1 portion", "350", 539], ["Spaghetti à la carbonara", "🍝", "1 portion", "300", 648], ["Spaghetti bolognaise", "🍝", "1 portion", "350", 544], ["Lasagnes", "🍝", "1 portion", "300", 618], ["Paella", "🥘", "1 portion", "350", 592], ["Guacamole", "🥑", "1 c. à soupe", "15", 22], ["Burrito au bœuf", "🌯", "1 pièce", "380", 855], ["Chili con carne", "🌶️", "1 bol", "300", 354], ["Quesadilla au fromage", "🫓", "1 pièce", "115", 363], ["Salade César au poulet", "🥗", "1 portion", "300", 528], ["Salade grecque", "🥗", "1 portion", "250", 286], ["Chakchouka", "🍳", "1 portion", "300", 270], ["Tartine avocat", "🥑", "1 pièce", "140", 323], ["Macaroni au fromage", "🧀", "1 portion", "250", 558], ["Curry de poulet", "🍛", "1 portion", "250", 268], ["California roll", "🍣", "1 pièce", "30", 28]], S = {"title": "Devinez les calories : 5 aliments par jour · Grammi", "h1": "Devinez les calories", "desc": "Un jeu quotidien et gratuit : devinez les calories de 5 aliments courants. Les mêmes pour tout le monde, de nouveaux à minuit. Partagez votre score.", "intro": "Cinq aliments, une portion chacun, quatre réponses. Choisissez le nombre de calories qui vous semble juste. Tout le monde joue avec les mêmes aliments, et de nouveaux arrivent à minuit.", "q_of": "Aliment {i} sur 5", "ask": "Combien de calories ?", "next": "Suivant", "results": "Voir les résultats", "answer": "Réponse : {n} kcal", "exact": "(valeur exacte : {n} kcal)", "streak_share": "🔥 série de {n} jours", "you": "Votre choix", "actual": "Réel", "pts": "+{n} points", "score": "Votre score", "streak1": "Série : 1 jour", "streak": "Série : {n} jours", "best": "Record : {n}", "share": "Partager", "copied": "Copié !", "next_in": "Prochain jeu dans", "played": "Vous avez déjà joué au jeu du jour.", "how_h": "Comment les points sont calculés", "how": "Votre choix est noté selon son écart avec le vrai chiffre, en pourcentage : une réponse proche rapporte aussi des points. Moins de 10 % d’écart : 100 points · moins de 25 % : 60 · moins de 50 % : 25 · au-delà : 0. C’est la même règle que le jeu des calories de l’app Grammi.", "data": "Les calories correspondent à la portion indiquée, d’après l’USDA FoodData Central.", "noscript": "Ce jeu nécessite JavaScript.", "sound_on": "Son activé", "sound_off": "Son coupé", "nav": "Jeu du jour", "cta_game": "Notez ce que vous mangez vraiment avec Grammi", "cta_sub": "Scan des codes-barres gratuit, sans pub et sans compte. Votre journal reste sur votre iPhone.", "cta_btn": "Télécharger Grammi sur l’App Store", "play": "Jouer au jeu des calories du jour", "kcal": "kcal", "g": "g"}, BL = ["Pile poil", "Proche", "Pas loin", "Très loin"], URL = "grammiapp.com/fr/jeu", KEY = "grammi.game.v2", SKEY = "grammi.streak.v1";
+function ld(k){ try { return JSON.parse(localStorage.getItem(k) || "null"); } catch (e) { return null; } }
+function sv(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+function f(s, n){ return s.replace("{n}", n).replace("{i}", n); }
+var app = document.getElementById("game"), day = dayNumber(new Date()), items = todays(POOL.length, day).map(function(i){ return POOL[i]; });
+var st = ld(KEY); if (!st || st.day !== day || !Array.isArray(st.g)) st = { day: day, g: [] };
+var revealed = false, SND = "grammi.sound.v1";
+// Ses yalnız cevap açılınca (uygulamayla aynı 4 ses). "ambient": iPhone sessizdeyse çalmaz (Safari 17+ destekliyorsa).
+try { if (navigator.audioSession) navigator.audioSession.type = "ambient"; } catch (e) {}
+var sounds = ["spot", "close", "area", "off"].map(function(n){ var a = new Audio("/sfx/game-" + n + ".wav"); a.preload = "auto"; return a; });
+function soundOn(){ return ld(SND) !== false; }
+function play(b){ if (!soundOn()) return; var a = sounds[Math.min(b, 3)];
+  try { a.currentTime = 0; var p = a.play(); if (p && p.catch) p.catch(function(){}); } catch (e) {} }
+function h(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function score(){ var s = 0; st.g.forEach(function(g, i){ s += POINTS[gBand(g, items[i][4])]; }); return s; }
+function squares(){ return st.g.map(function(g, i){ return SQUARES[gBand(g, items[i][4])]; }).join(""); }
+function streak(){ var k = ld(SKEY) || { last: 0, n: 0, best: 0 };
+  if (k.last !== day) { k.n = (k.last === day - 1) ? k.n + 1 : 1; k.last = day; k.best = Math.max(k.best || 0, k.n); sv(SKEY, k); } return k; }
+function render(){
+  app.innerHTML = "";
+  if (st.g.length >= 5 && !revealed) return summary();
+  var i = revealed ? st.g.length - 1 : st.g.length, it = items[i], T = it[4], ch = choices(T, day, i), card = h("div", "card center");
+  var best = ch.reduce(function(a, b){ return gErr(b, T) < gErr(a, T) ? b : a; }), picked = revealed ? st.g[i] : null;
+  card.appendChild(h("div", "progress", f(S.q_of, i + 1)));
+  card.appendChild(h("div", "food-emoji", it[1]));
+  card.appendChild(h("div", "qname", it[0]));
+  card.appendChild(h("div", "portion", it[2] + " · " + it[3] + " " + S.g));
+  card.appendChild(h("p", "reveal", S.ask));
+  var grid = h("div", "opts"), first = null;
+  ch.forEach(function(v){ var b = h("button", "opt", v + " " + S.kcal); b.type = "button";
+    if (revealed) { b.disabled = true; b.className += v === best ? " b0" : (v === picked ? " b" + gBand(v, T) : " dim"); }
+    else { b.addEventListener("click", function(){ st.g.push(v); sv(KEY, st); revealed = true; play(gBand(v, T)); if (st.g.length === 5) streak(); render(); });
+      if (!first) first = b; }
+    grid.appendChild(b); });
+  card.appendChild(grid);
+  if (revealed) {
+    var bd = gBand(picked, T), r = h("div", null); r.setAttribute("aria-live", "polite");
+    r.appendChild(h("p", "reveal", SQUARES[bd] + " " + BL[bd] + " · " + f(S.pts, POINTS[bd])));
+    r.appendChild(h("p", "muted", f(S.answer, best) + (best !== T ? " " + f(S.exact, T) : "")));
+    var nx = h("button", null, st.g.length >= 5 ? S.results : S.next); nx.type = "button";
+    nx.addEventListener("click", function(){ revealed = false; render(); });
+    r.appendChild(nx); card.appendChild(r); app.appendChild(card); nx.focus({ preventScroll: true }); return;
+  }
+  app.appendChild(card); if (st.g.length && first) first.focus({ preventScroll: true });
+}
+function summary(){
+  var card = h("div", "card center"), sc = score(), k = streak();
+  var text = "Grammi #" + day + " " + squares() + " " + sc + "/500" + (k.n >= 2 ? " " + f(S.streak_share, k.n) : "") + " " + URL;
+  card.appendChild(h("div", "progress", S.played));
+  card.appendChild(h("div", "progress", S.score));
+  card.appendChild(h("div", "big", sc + "/500"));
+  card.appendChild(h("div", "squares", squares()));
+  card.appendChild(h("p", null, "🔥 " + (k.n === 1 ? S.streak1 : f(S.streak, k.n)) + " · " + f(S.best, k.best)));
+  var ul = h("ul", "list");
+  items.forEach(function(it, i){ var li = h("li"), g = st.g[i];
+    li.appendChild(h("b", null, SQUARES[gBand(g, it[4])] + " " + it[1] + " " + it[0]));
+    li.appendChild(h("span", null, S.you + " " + g + " · " + S.actual + " " + it[4] + " " + S.kcal)); ul.appendChild(li); });
+  card.appendChild(ul);
+  var sh = h("button", null, S.share); sh.type = "button";
+  sh.addEventListener("click", function(){
+    function copied(){ sh.textContent = S.copied; setTimeout(function(){ sh.textContent = S.share; }, 2000); }
+    function fallback(){ var ta = document.createElement("textarea"); ta.value = text; card.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); copied(); } catch (e) {} }
+    if (navigator.share) { navigator.share({ text: text }).catch(function(){}); return; }
+    if (navigator.clipboard) { navigator.clipboard.writeText(text).then(copied, fallback); } else fallback();
+  });
+  card.appendChild(sh);
+  var cd = h("p", "progress"); card.appendChild(cd);
+  function tick(){ var n = new Date(), m = new Date(n.getFullYear(), n.getMonth(), n.getDate() + 1), s = Math.max(0, Math.round((m - n) / 1000));
+    if (s === 0 || dayNumber(n) !== day) { location.reload(); return; }
+    var p = function(x){ return (x < 10 ? "0" : "") + x; };
+    cd.textContent = S.next_in + " " + p(Math.floor(s / 3600)) + ":" + p(Math.floor(s / 60) % 60) + ":" + p(s % 60); }
+  tick(); setInterval(tick, 1000);
+  app.appendChild(card);
+}
+var snd = h("button", "snd"); snd.type = "button";
+function sndLabel(){ var on = soundOn(); snd.textContent = (on ? "🔊 " : "🔇 ") + (on ? S.sound_on : S.sound_off); snd.setAttribute("aria-pressed", on ? "true" : "false"); }
+snd.addEventListener("click", function(){ sv(SND, !soundOn()); sndLabel(); });
+sndLabel(); app.parentNode.insertBefore(snd, app);
+render();
+})();
+</script></body></html>
