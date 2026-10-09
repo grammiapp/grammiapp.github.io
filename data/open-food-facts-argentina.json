@@ -1,0 +1,976 @@
+{
+ "source": "Open Food Facts (https://world.openfoodfacts.org)",
+ "license": "Open Database License (ODbL) v1.0 — https://opendatacommons.org/licenses/odbl/1-0/",
+ "description": "Extract of 57 Argentine packaged products bundled in the Grammi app. Names shortened; values as published on Open Food Facts (October 2026).",
+ "products": [
+  {
+   "barcode": "7790742625304",
+   "name": "Dulce de leche clásico",
+   "brand": "La Serenísima",
+   "quantity": "400 g",
+   "serving_g": 20.0,
+   "per_100g": {
+    "energy_kcal": 310.0,
+    "proteins_g": 5.5,
+    "carbohydrates_g": 55.0,
+    "fat_g": 7.0,
+    "fiber_g": 0.0,
+    "sugars_g": 44.0,
+    "saturated_fat_g": 5.0,
+    "sodium_g": 0.155
+   }
+  },
+  {
+   "barcode": "7790742625205",
+   "name": "Dulce de leche estilo colonial",
+   "brand": "La Serenísima",
+   "quantity": "400 g",
+   "serving_g": 20.0,
+   "per_100g": {
+    "energy_kcal": 315.0,
+    "proteins_g": 7.5,
+    "carbohydrates_g": 55.0,
+    "fat_g": 7.0,
+    "fiber_g": 0.0,
+    "sugars_g": 50.0,
+    "saturated_fat_g": 5.0,
+    "sodium_g": 0.145
+   }
+  },
+  {
+   "barcode": "7791875005353",
+   "name": "Dulce de leche",
+   "brand": "Havanna",
+   "quantity": "450 g",
+   "serving_g": 20.0,
+   "per_100g": {
+    "energy_kcal": 305.0,
+    "proteins_g": 6.0,
+    "carbohydrates_g": 55.0,
+    "fat_g": 6.5,
+    "fiber_g": 0.0,
+    "sugars_g": 55.0,
+    "saturated_fat_g": 3.9,
+    "sodium_g": 0.1
+   }
+  },
+  {
+   "barcode": "7790742335500",
+   "name": "Leche larga vida clásica 3%",
+   "brand": "La Serenísima",
+   "quantity": "1 l",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 57.0,
+    "proteins_g": 3.0,
+    "carbohydrates_g": 4.5,
+    "fat_g": 3.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790742363107",
+   "name": "Leche larga vida descremada",
+   "brand": "La Serenísima",
+   "quantity": "1 litro",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 40.0,
+    "proteins_g": 3.0,
+    "carbohydrates_g": 4.8,
+    "fat_g": 0.6,
+    "fiber_g": 0.0,
+    "sugars_g": 4.8,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.049
+   }
+  },
+  {
+   "barcode": "7790742333605",
+   "name": "Leche Zero Lactosa",
+   "brand": "La Serenísima",
+   "quantity": "1 l",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 40.0,
+    "proteins_g": 3.0,
+    "carbohydrates_g": 4.8,
+    "fat_g": 1.0,
+    "fiber_g": 0.0,
+    "sugars_g": 4.8,
+    "saturated_fat_g": 0.65,
+    "sodium_g": 0.049
+   }
+  },
+  {
+   "barcode": "7791337006355",
+   "name": "Yogurísimo natural",
+   "brand": "La Serenísima",
+   "quantity": "300 g",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 81.5,
+    "proteins_g": 7.0,
+    "carbohydrates_g": 6.25,
+    "fat_g": 3.15,
+    "fiber_g": 0.0,
+    "sugars_g": 5.25,
+    "saturated_fat_g": 1.8,
+    "sodium_g": 0.087
+   }
+  },
+  {
+   "barcode": "7791337009677",
+   "name": "Yogur Ser Pro+ frutos rojos",
+   "brand": "Ser",
+   "quantity": "175g",
+   "serving_g": 175.0,
+   "per_100g": {
+    "energy_kcal": 76.0,
+    "proteins_g": 8.571,
+    "carbohydrates_g": 8.0,
+    "fat_g": 1.086,
+    "fiber_g": 0.0,
+    "sugars_g": 7.886,
+    "saturated_fat_g": 0.629,
+    "sodium_g": 0.081
+   }
+  },
+  {
+   "barcode": "7793913013993",
+   "name": "Yogur natural sin azúcar agregada",
+   "brand": "Tregar",
+   "quantity": "280 gramos",
+   "serving_g": 140.0,
+   "per_100g": {
+    "energy_kcal": 79.286,
+    "proteins_g": 5.286,
+    "carbohydrates_g": 7.857,
+    "fat_g": 3.0,
+    "fiber_g": 0.0,
+    "sugars_g": 7.143,
+    "saturated_fat_g": 2.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790742373205",
+   "name": "Queso untable clásico",
+   "brand": "Finlandia",
+   "quantity": "290 g",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 270.0,
+    "proteins_g": 8.0,
+    "carbohydrates_g": 3.333,
+    "fat_g": 25.333,
+    "fiber_g": 0.0,
+    "sugars_g": 3.333,
+    "saturated_fat_g": 17.0,
+    "sodium_g": 0.253
+   }
+  },
+  {
+   "barcode": "7790742373304",
+   "name": "Queso untable light",
+   "brand": "Finlandia",
+   "quantity": "290g",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 190.0,
+    "proteins_g": 9.0,
+    "carbohydrates_g": 5.333,
+    "fat_g": 14.667,
+    "fiber_g": 0.0,
+    "sugars_g": 5.333,
+    "saturated_fat_g": 9.667,
+    "sodium_g": 1.213
+   }
+  },
+  {
+   "barcode": "7791337061361",
+   "name": "Queso crema clásico",
+   "brand": "Casancrem",
+   "quantity": "290 g",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 220.0,
+    "proteins_g": 6.0,
+    "carbohydrates_g": 5.0,
+    "fat_g": 19.667,
+    "fiber_g": 0.0,
+    "sugars_g": 4.0,
+    "saturated_fat_g": 0.667,
+    "sodium_g": 0.203
+   }
+  },
+  {
+   "barcode": "7790742223005",
+   "name": "Queso rallado",
+   "brand": "La Serenísima",
+   "quantity": "70G",
+   "serving_g": 10.0,
+   "per_100g": {
+    "energy_kcal": 390.0,
+    "proteins_g": 38.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 26.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 15.0,
+    "sodium_g": 1.14
+   }
+  },
+  {
+   "barcode": "7793940054006",
+   "name": "Manteca",
+   "brand": "La Serenísima",
+   "quantity": "200g",
+   "serving_g": 10.0,
+   "per_100g": {
+    "energy_kcal": 740.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 82.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 52.0,
+    "sodium_g": 0.14
+   }
+  },
+  {
+   "barcode": "7790742167200",
+   "name": "Queso danbo en fetas",
+   "brand": "Finlandia",
+   "quantity": "150 g",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 373.333,
+    "proteins_g": 27.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 29.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 19.667,
+    "sodium_g": 0.57
+   }
+  },
+  {
+   "barcode": "7790040143234",
+   "name": "Chocolinas",
+   "brand": "Bagley",
+   "quantity": "250gr",
+   "serving_g": 33.0,
+   "per_100g": {
+    "energy_kcal": 453.0,
+    "proteins_g": 8.9,
+    "carbohydrates_g": 67.0,
+    "fat_g": 17.0,
+    "fiber_g": 4.0,
+    "sugars_g": 20.0,
+    "saturated_fat_g": 5.0,
+    "sodium_g": 0.271
+   }
+  },
+  {
+   "barcode": "7790040377806",
+   "name": "Criollitas",
+   "brand": "Bagley",
+   "quantity": "300gr",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 423.333,
+    "proteins_g": 12.0,
+    "carbohydrates_g": 63.333,
+    "fat_g": 13.0,
+    "fiber_g": 3.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 5.667,
+    "sodium_g": 0.557
+   }
+  },
+  {
+   "barcode": "7792200000159",
+   "name": "Bizcochitos clásicos",
+   "brand": "9 de Oro",
+   "quantity": "200 g",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 480.0,
+    "proteins_g": 9.0,
+    "carbohydrates_g": 60.0,
+    "fat_g": 22.0,
+    "fiber_g": 2.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 9.0,
+    "sodium_g": 0.669
+   }
+  },
+  {
+   "barcode": "7795735000328",
+   "name": "Bizcochos salados",
+   "brand": "Don Satur",
+   "quantity": "200 g",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 516.667,
+    "proteins_g": 9.0,
+    "carbohydrates_g": 53.333,
+    "fat_g": 29.667,
+    "fiber_g": 0.0,
+    "sugars_g": 2.0,
+    "saturated_fat_g": 13.667,
+    "sodium_g": 0.567
+   }
+  },
+  {
+   "barcode": "7795735000342",
+   "name": "Bizcochos Negrito",
+   "brand": "Don Satur",
+   "quantity": "200 g (7,05 oz)",
+   "serving_g": 0.0,
+   "per_100g": {
+    "energy_kcal": 466.667,
+    "proteins_g": 10.0,
+    "carbohydrates_g": 67.0,
+    "fat_g": 20.0,
+    "fiber_g": 0.0,
+    "sugars_g": 23.0,
+    "saturated_fat_g": 10.0,
+    "sodium_g": 0.24
+   }
+  },
+  {
+   "barcode": "7790040003569",
+   "name": "Rex original",
+   "brand": "Bagley",
+   "quantity": "75 g (2.6 oz)",
+   "serving_g": 31.0,
+   "per_100g": {
+    "energy_kcal": 478.0,
+    "proteins_g": 8.6,
+    "carbohydrates_g": 62.0,
+    "fat_g": 22.0,
+    "fiber_g": 1.9,
+    "sugars_g": 5.1,
+    "saturated_fat_g": 5.3,
+    "sodium_g": 0.415
+   }
+  },
+  {
+   "barcode": "7790040143531",
+   "name": "Galletitas Amor",
+   "brand": "Bagley",
+   "quantity": "110",
+   "serving_g": 0.0,
+   "per_100g": {
+    "energy_kcal": 476.0,
+    "proteins_g": 6.1,
+    "carbohydrates_g": 71.0,
+    "fat_g": 19.0,
+    "fiber_g": 0.0,
+    "sugars_g": 32.0,
+    "saturated_fat_g": 8.8,
+    "sodium_g": 0.268
+   }
+  },
+  {
+   "barcode": "7790040931305",
+   "name": "Galletitas Sonrisas",
+   "brand": "Bagley",
+   "quantity": "",
+   "serving_g": 0.0,
+   "per_100g": {
+    "energy_kcal": 412.0,
+    "proteins_g": 7.1,
+    "carbohydrates_g": 67.0,
+    "fat_g": 13.0,
+    "fiber_g": 0.0,
+    "sugars_g": 24.0,
+    "saturated_fat_g": 5.4,
+    "sodium_g": 0.852
+   }
+  },
+  {
+   "barcode": "7790040143005",
+   "name": "Galletitas Mediatarde",
+   "brand": "Bagley",
+   "quantity": "",
+   "serving_g": 30.0,
+   "per_100g": {
+    "energy_kcal": 453.333,
+    "proteins_g": 11.0,
+    "carbohydrates_g": 66.667,
+    "fat_g": 15.667,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790040147720",
+   "name": "Surtido Bagley",
+   "brand": "Bagley",
+   "quantity": "400G",
+   "serving_g": 100.0,
+   "per_100g": {
+    "energy_kcal": 447.0,
+    "proteins_g": 7.4,
+    "carbohydrates_g": 69.0,
+    "fat_g": 16.0,
+    "fiber_g": 2.4,
+    "sugars_g": 29.0,
+    "saturated_fat_g": 4.0,
+    "sodium_g": 0.265
+   }
+  },
+  {
+   "barcode": "77980229",
+   "name": "Alfajor de dulce de leche",
+   "brand": "Guaymallén",
+   "quantity": "38 g",
+   "serving_g": 38.0,
+   "per_100g": {
+    "energy_kcal": 400.0,
+    "proteins_g": 5.789,
+    "carbohydrates_g": 63.158,
+    "fat_g": 13.684,
+    "fiber_g": 2.368,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 7.368,
+    "sodium_g": 0.195
+   }
+  },
+  {
+   "barcode": "77980212",
+   "name": "Alfajor blanco de dulce de leche",
+   "brand": "Guaymallén",
+   "quantity": "38 g",
+   "serving_g": 38.0,
+   "per_100g": {
+    "energy_kcal": 423.684,
+    "proteins_g": 5.263,
+    "carbohydrates_g": 65.789,
+    "fat_g": 15.526,
+    "fiber_g": 0.789,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 7.632,
+    "sodium_g": 0.161
+   }
+  },
+  {
+   "barcode": "77939234",
+   "name": "Alfajor clásico",
+   "brand": "Terrabusi",
+   "quantity": "50 g",
+   "serving_g": 50.0,
+   "per_100g": {
+    "energy_kcal": 400.0,
+    "proteins_g": 6.7,
+    "carbohydrates_g": 59.0,
+    "fat_g": 15.0,
+    "fiber_g": 1.9,
+    "sugars_g": 40.0,
+    "saturated_fat_g": 8.2,
+    "sodium_g": 0.169
+   }
+  },
+  {
+   "barcode": "7798397444202",
+   "name": "Alfajor negro",
+   "brand": "Rasta",
+   "quantity": "70 g",
+   "serving_g": 70.0,
+   "per_100g": {
+    "energy_kcal": 420.0,
+    "proteins_g": 8.0,
+    "carbohydrates_g": 57.143,
+    "fat_g": 17.143,
+    "fiber_g": 1.429,
+    "sugars_g": 42.857,
+    "saturated_fat_g": 8.857,
+    "sodium_g": 0.13
+   }
+  },
+  {
+   "barcode": "7790957000019",
+   "name": "Alfajores",
+   "brand": "Jorgito",
+   "quantity": "300 g",
+   "serving_g": 50.0,
+   "per_100g": {
+    "energy_kcal": 372.0,
+    "proteins_g": 6.2,
+    "carbohydrates_g": 62.0,
+    "fat_g": 10.4,
+    "fiber_g": 1.0,
+    "sugars_g": 36.0,
+    "saturated_fat_g": 5.2,
+    "sodium_g": 0.14
+   }
+  },
+  {
+   "barcode": "7791875000372",
+   "name": "Alfajores",
+   "brand": "Havanna",
+   "quantity": "",
+   "serving_g": 0.0,
+   "per_100g": {
+    "energy_kcal": 375.0,
+    "proteins_g": 6.4,
+    "carbohydrates_g": 58.0,
+    "fat_g": 13.0,
+    "fiber_g": 0.0,
+    "sugars_g": 31.0,
+    "saturated_fat_g": 7.1,
+    "sodium_g": 2.44
+   }
+  },
+  {
+   "barcode": "77976291",
+   "name": "Tita",
+   "brand": "Terrabusi",
+   "quantity": "19 g",
+   "serving_g": 19.0,
+   "per_100g": {
+    "energy_kcal": 494.737,
+    "proteins_g": 5.263,
+    "carbohydrates_g": 63.158,
+    "fat_g": 23.684,
+    "fiber_g": 0.0,
+    "sugars_g": 37.895,
+    "saturated_fat_g": 13.158,
+    "sodium_g": 0.205
+   }
+  },
+  {
+   "barcode": "77995681",
+   "name": "Rhodesia",
+   "brand": "Terrabusi",
+   "quantity": "22 g",
+   "serving_g": 22.0,
+   "per_100g": {
+    "energy_kcal": 547.619,
+    "proteins_g": 4.762,
+    "carbohydrates_g": 66.667,
+    "fat_g": 29.048,
+    "fiber_g": 3.333,
+    "sugars_g": 47.619,
+    "saturated_fat_g": 15.714,
+    "sodium_g": 0.021
+   }
+  },
+  {
+   "barcode": "7790580119133",
+   "name": "Bon o Bon",
+   "brand": "Arcor",
+   "quantity": "450 g",
+   "serving_g": 15.0,
+   "per_100g": {
+    "energy_kcal": 555.0,
+    "proteins_g": 10.0,
+    "carbohydrates_g": 48.0,
+    "fat_g": 36.0,
+    "fiber_g": 0.0,
+    "sugars_g": 42.0,
+    "saturated_fat_g": 18.0,
+    "sodium_g": 0.124
+   }
+  },
+  {
+   "barcode": "7791249451472",
+   "name": "Mantecol clásico",
+   "brand": "Mantecol",
+   "quantity": "110 g",
+   "serving_g": 20.0,
+   "per_100g": {
+    "energy_kcal": 503.0,
+    "proteins_g": 14.0,
+    "carbohydrates_g": 42.0,
+    "fat_g": 31.0,
+    "fiber_g": 7.0,
+    "sugars_g": 40.0,
+    "saturated_fat_g": 7.2,
+    "sodium_g": 0.044
+   }
+  },
+  {
+   "barcode": "77940131",
+   "name": "Turrón de maní",
+   "brand": "Arcor",
+   "quantity": "25 g",
+   "serving_g": 25.0,
+   "per_100g": {
+    "energy_kcal": 425.926,
+    "proteins_g": 8.8,
+    "carbohydrates_g": 73.0,
+    "fat_g": 7.9,
+    "fiber_g": 1.6,
+    "sugars_g": 40.0,
+    "saturated_fat_g": 1.3,
+    "sodium_g": 0.051
+   }
+  },
+  {
+   "barcode": "7790580327415",
+   "name": "Rocklets",
+   "brand": "Arcor",
+   "quantity": "40 g",
+   "serving_g": 40.0,
+   "per_100g": {
+    "energy_kcal": 477.0,
+    "proteins_g": 5.1,
+    "carbohydrates_g": 70.0,
+    "fat_g": 19.0,
+    "fiber_g": 0.0,
+    "sugars_g": 69.0,
+    "saturated_fat_g": 12.0,
+    "sodium_g": 0.079
+   }
+  },
+  {
+   "barcode": "7793890258769",
+   "name": "Pan blanco",
+   "brand": "Lactal",
+   "quantity": "315",
+   "serving_g": 54.0,
+   "per_100g": {
+    "energy_kcal": 261.111,
+    "proteins_g": 9.63,
+    "carbohydrates_g": 48.148,
+    "fat_g": 3.333,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.246
+   }
+  },
+  {
+   "barcode": "7793890258264",
+   "name": "Rapiditas clásicas",
+   "brand": "Bimbo",
+   "quantity": "275 g (10 unidades)",
+   "serving_g": 27.5,
+   "per_100g": {
+    "energy_kcal": 301.818,
+    "proteins_g": 9.273,
+    "carbohydrates_g": 50.909,
+    "fat_g": 6.727,
+    "fiber_g": 2.545,
+    "sugars_g": 1.455,
+    "saturated_fat_g": 3.273,
+    "sodium_g": 0.285
+   }
+  },
+  {
+   "barcode": "7790895000782",
+   "name": "Coca-Cola original",
+   "brand": "Coca-Cola",
+   "quantity": "500 ml",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 42.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 11.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 11.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.006
+   }
+  },
+  {
+   "barcode": "7790895067556",
+   "name": "Coca-Cola Zero",
+   "brand": "Coca-Cola",
+   "quantity": "1,5l",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 0.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.028
+   }
+  },
+  {
+   "barcode": "7798113300027",
+   "name": "Manaos cola",
+   "brand": "Manaos",
+   "quantity": "2.25l",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 44.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 11.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.013
+   }
+  },
+  {
+   "barcode": "7798113300041",
+   "name": "Manaos naranja",
+   "brand": "Manaos",
+   "quantity": "2,25 l",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 52.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 13.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7791813421382",
+   "name": "Paso de los Toros pomelo",
+   "brand": "Paso de los Toros",
+   "quantity": "1,5 l",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 44.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 11.5,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 11.5,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.004
+   }
+  },
+  {
+   "barcode": "7798119220183",
+   "name": "Speed",
+   "brand": "Speed",
+   "quantity": "473ml",
+   "serving_g": 200.0,
+   "per_100g": {
+    "energy_kcal": 45.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 11.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 11.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.012
+   }
+  },
+  {
+   "barcode": "7794000006072",
+   "name": "Mayonesa clásica",
+   "brand": "Hellmann's",
+   "quantity": "475gr",
+   "serving_g": 12.0,
+   "per_100g": {
+    "energy_kcal": 308.333,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 6.667,
+    "fat_g": 30.833,
+    "fiber_g": 0.0,
+    "sugars_g": 3.333,
+    "saturated_fat_g": 3.333,
+    "sodium_g": 3.333
+   }
+  },
+  {
+   "barcode": "7794000006188",
+   "name": "Ketchup",
+   "brand": "Hellmann's",
+   "quantity": "250 g",
+   "serving_g": 12.0,
+   "per_100g": {
+    "energy_kcal": 133.333,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 30.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 24.167,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.725
+   }
+  },
+  {
+   "barcode": "7798151952332",
+   "name": "Pasta de maní natural",
+   "brand": "Maní King",
+   "quantity": "485 g",
+   "serving_g": 20.0,
+   "per_100g": {
+    "energy_kcal": 585.0,
+    "proteins_g": 26.0,
+    "carbohydrates_g": 10.0,
+    "fat_g": 49.0,
+    "fiber_g": 9.2,
+    "sugars_g": 7.5,
+    "saturated_fat_g": 6.4,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790580138738",
+   "name": "Polenta instantánea",
+   "brand": "Arcor",
+   "quantity": "490g",
+   "serving_g": 50.0,
+   "per_100g": {
+    "energy_kcal": 348.0,
+    "proteins_g": 7.0,
+    "carbohydrates_g": 78.0,
+    "fat_g": 0.8,
+    "fiber_g": 2.2,
+    "sugars_g": 0.5,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7791120031557",
+   "name": "Arroz largo fino",
+   "brand": "Molinos Ala",
+   "quantity": "1Kg",
+   "serving_g": 50.0,
+   "per_100g": {
+    "energy_kcal": 348.0,
+    "proteins_g": 8.8,
+    "carbohydrates_g": 76.0,
+    "fat_g": 0.0,
+    "fiber_g": 1.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790070336026",
+   "name": "Fideos tirabuzón",
+   "brand": "Lucchetti",
+   "quantity": "500 g",
+   "serving_g": 80.0,
+   "per_100g": {
+    "energy_kcal": 331.25,
+    "proteins_g": 10.75,
+    "carbohydrates_g": 70.0,
+    "fat_g": 1.0,
+    "fiber_g": 3.0,
+    "sugars_g": 0.75,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.003
+   }
+  },
+  {
+   "barcode": "7792540260138",
+   "name": "Azúcar",
+   "brand": "Ledesma",
+   "quantity": "1 kg",
+   "serving_g": 5.0,
+   "per_100g": {
+    "energy_kcal": 400.0,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 100.0,
+    "fat_g": 0.0,
+    "fiber_g": 0.0,
+    "sugars_g": 100.0,
+    "saturated_fat_g": 0.0,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790272001005",
+   "name": "Aceite de girasol",
+   "brand": "Natura",
+   "quantity": "900 ml",
+   "serving_g": 13.0,
+   "per_100g": {
+    "energy_kcal": 830.769,
+    "proteins_g": 0.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 92.308,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 9.231,
+    "sodium_g": 0.0
+   }
+  },
+  {
+   "barcode": "7790670052678",
+   "name": "Hamburguesas de casa",
+   "brand": "Paty",
+   "quantity": "2 x 120g",
+   "serving_g": 120.0,
+   "per_100g": {
+    "energy_kcal": 272.5,
+    "proteins_g": 18.75,
+    "carbohydrates_g": 0.0,
+    "fat_g": 22.5,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 1.125,
+    "sodium_g": 0.241
+   }
+  },
+  {
+   "barcode": "7790670050667",
+   "name": "Hamburguesa clásica",
+   "brand": "Paty",
+   "quantity": "",
+   "serving_g": 80.0,
+   "per_100g": {
+    "energy_kcal": 266.25,
+    "proteins_g": 20.0,
+    "carbohydrates_g": 1.625,
+    "fat_g": 20.0,
+    "fiber_g": 2.0,
+    "sugars_g": 1.5,
+    "saturated_fat_g": 10.125,
+    "sodium_g": 0.621
+   }
+  },
+  {
+   "barcode": "7790670051220",
+   "name": "Salchichas Patyviena",
+   "brand": "Paty",
+   "quantity": "190 g",
+   "serving_g": 0.0,
+   "per_100g": {
+    "energy_kcal": 232.0,
+    "proteins_g": 12.2,
+    "carbohydrates_g": 8.6,
+    "fat_g": 16.6,
+    "fiber_g": 0.8,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 5.6,
+    "sodium_g": 0.72
+   }
+  },
+  {
+   "barcode": "7790360720115",
+   "name": "Picadillo de carne",
+   "brand": "Swift",
+   "quantity": "90 g",
+   "serving_g": 10.0,
+   "per_100g": {
+    "energy_kcal": 220.0,
+    "proteins_g": 9.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 20.0,
+    "fiber_g": 0.0,
+    "sugars_g": 0.0,
+    "saturated_fat_g": 10.0,
+    "sodium_g": 0.75
+   }
+  }
+ ]
+}
