@@ -1,0 +1,56 @@
+# Grammi
+
+> Grammi is a calorie counter app for iPhone (with an Apple Watch app), in 13 languages. Barcode scanning with no daily limit
+> and the food diary are free for good. No ads, no account; the diary stays on the iPhone. Grammi Pro is an optional subscription.
+
+App Store: https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&ct=llms&mt=8
+
+## Facts
+- **Is Grammi free?** Yes. Barcode scanning with no daily limit and logging every meal (search, manual entry, daily totals) are free for good, along with goals, weight and water. Grammi Pro is optional: meal photos, an adapted calorie target, 30- and 90-day charts and a fasting timer, with a 7-day free trial.
+- **Does Grammi have ads?** No. There are no ads in Grammi, on the free plan or on Pro.
+- **Do I need an account?** No. Open the app and start logging. Your food diary is stored on your iPhone, not in an account.
+- **Can I bring my history from another app?** Yes. Export a CSV file from your previous app and import it into Grammi; meals and weigh-ins keep their dates.
+- **What is the daily calorie game?** Every day everyone gets the same 5 foods and guesses their calories from 4 options. Play it in the app or free in your browser: https://grammiapp.com/game/.
+- **Which devices and languages?** Grammi is an iPhone app with an Apple Watch app, available in 13 languages.
+
+## Home pages
+- [English](https://grammiapp.com/)
+- [Türkçe](https://grammiapp.com/tr/)
+- [Español](https://grammiapp.com/es/)
+- [Português (Brasil)](https://grammiapp.com/pt-br/)
+- [Português (Portugal)](https://grammiapp.com/pt-pt/)
+- [Français](https://grammiapp.com/fr/)
+- [Deutsch](https://grammiapp.com/de/)
+- [Italiano](https://grammiapp.com/it/)
+- [Русский](https://grammiapp.com/ru/)
+- [العربية](https://grammiapp.com/ar/)
+- [Bahasa Indonesia](https://grammiapp.com/id/)
+- [日本語](https://grammiapp.com/ja/)
+- [한국어](https://grammiapp.com/ko/)
+
+## Calories in common foods (per portion and per 100 g, 200 foods)
+- [Calories in common foods](https://grammiapp.com/calories/)
+- [Calorías de alimentos comunes](https://grammiapp.com/es/calorias/)
+- [Yiyeceklerin kalorisi](https://grammiapp.com/tr/kalori/)
+- [Kalorientabelle für alltägliche Lebensmittel](https://grammiapp.com/de/kalorien/)
+- [Table des calories des aliments courants](https://grammiapp.com/fr/calories/)
+- [Tabella delle calorie degli alimenti](https://grammiapp.com/it/calorie/)
+
+## Daily calorie guessing game (free, in the browser)
+- [Daily calorie guess](https://grammiapp.com/game/)
+- [Adivina las calorías](https://grammiapp.com/es/juego/)
+- [Günün kalori tahmini](https://grammiapp.com/tr/oyun/)
+- [Adivinhe as calorias](https://grammiapp.com/pt-br/jogo/)
+- [Adivinhe as calorias](https://grammiapp.com/pt-pt/jogo/)
+- [Devinez les calories](https://grammiapp.com/fr/jeu/)
+- [Kalorien raten](https://grammiapp.com/de/spiel/)
+- [Indovina le calorie](https://grammiapp.com/it/gioco/)
+- [Угадайте калории](https://grammiapp.com/ru/igra/)
+- [خمّن السعرات](https://grammiapp.com/ar/game/)
+- [Tebak kalori](https://grammiapp.com/id/permainan/)
+- [カロリー当てクイズ](https://grammiapp.com/ja/game/)
+- [칼로리 맞히기](https://grammiapp.com/ko/game/)
+
+## Other
+- [Privacy](https://grammiapp.com/privacy.html)
+- [Support](https://grammiapp.com/support.html)
