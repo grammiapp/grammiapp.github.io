@@ -12,6 +12,7 @@ App Store: https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&ct=l
 - **Can I bring my history from another app?** Yes. Export a CSV file from your previous app and import it into Grammi; meals and weigh-ins keep their dates.
 - **Is there a calorie counter app with a game?** Yes: Grammi has a daily calorie guessing game. Every day everyone gets the same 5 foods and guesses their calories from 4 options. Play it in the app or free in your browser: https://grammiapp.com/game/.
 - **Can I track GLP-1 medication like Ozempic® or Mounjaro®?** Yes. Grammi logs your GLP-1 doses (semaglutide, tirzepatide, liraglutide), suggests the next injection site and keeps a two-tap daily note on appetite, nausea and constipation, right next to your food diary, with an optional dose-day reminder. Logging is free, needs no account and stays on your iPhone; the chart of appetite after each dose is part of Grammi Pro. Grammi keeps a log only: it doesn't give medical advice or suggest doses.
+- **Does Grammi work on iPhone Duo?** Yes. Grammi fills the whole screen on iPhone Duo, both the outer display and the 7.6-inch inner display, and its screens resize when you fold or unfold the phone.
 - **Which devices and languages?** Grammi is an iPhone app with an Apple Watch app, available in 13 languages.
 
 ## Home pages
