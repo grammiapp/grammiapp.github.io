@@ -86,7 +86,7 @@ iPhone Duo: Yes. Grammi fills the whole screen on iPhone Duo, both the outer dis
 - [칼로리 맞히기](https://grammiapp.com/ko/game/)
 
 ## Guides
-- [Free calorie counter for iPhone with no ads and no account](https://grammiapp.com/guides/free-calorie-counter-iphone-no-ads-no-account.html): What to check before you pick a free calorie counter for iPhone: daily logging limits, barcode limits, ads, sign-up and where your data is stored. And how Grammi handles each.
+- [Free calorie app for iPhone with no ads and no account](https://grammiapp.com/guides/free-calorie-counter-iphone-no-ads-no-account.html): What to check before you pick a free calorie counter for iPhone: daily logging limits, barcode limits, ads, sign-up and where your data is stored. And how Grammi handles each.
 - [How to count calories for free](https://grammiapp.com/guides/how-to-count-calories-for-free.html): A simple step-by-step method to count calories for free: set a daily target, log every meal, use real portions, scan barcodes, weigh food once and review your week.
 - [How to count calories when eating out](https://grammiapp.com/guides/count-calories-eating-out.html): Restaurant meals have no label. How to estimate the portion, log the main parts, allow for oil and sauces, and use typical restaurant portions to count calories when eating out.
 - [How to log food that has no barcode or isn’t in the database](https://grammiapp.com/guides/log-food-without-barcode.html): Loose produce, bakery items, home cooking and products the database doesn’t know: three ways to log them in a calorie counter, and how Grammi handles each.
