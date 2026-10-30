@@ -27,6 +27,7 @@ Free, for good:
 - Home Screen widget, Apple Watch app, Siri Shortcuts and Apple Health
 - Export your diary as a spreadsheet (CSV) — it's your data
 - GLP-1 medication log for semaglutide, tirzepatide or liraglutide: a dose-day reminder, injection-site rotation and a two-tap daily note on appetite and side effects — a log only, never dose advice
+- Plants & fiber: a weekly card with how many different plants you ate, plus fiber and protein
 - Calorie sense, the daily game: the same five foods for everyone, new every day — guess the calories and share your score
 - On iPhones with Apple Intelligence (iPhone 15 Pro or newer, iOS 26): recipes written for your goal, with nutrition calculated from the food database, not guessed
 
@@ -41,6 +42,7 @@ Grammi Pro (optional: a monthly or yearly subscription with a 7-day free trial, 
 - Photograph a meal (iPhone 15 Pro or newer, iOS 27)
 - GLP-1 insights: your appetite on each day after a dose, and your weight with every dose change marked
 - Four more looks for the calorie counter: a fuel gauge, a plate of where your calories came from, 200-calorie bites and calories by meal
+- Plants & fiber over 30 and 90 days, and illustrated covers for recipes without a photo
 - Family Sharing: one Yearly or Lifetime purchase covers up to six family members
 
 iPhone Duo: Yes. Grammi fills the whole screen on iPhone Duo, both the outer display and the 7.6-inch inner display, and its screens resize when you fold or unfold the phone.
