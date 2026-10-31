@@ -1,6 +1,6 @@
 # Grammi: calorie counter for iPhone
 
-Grammi is a calorie counter app for iPhone, with an Apple Watch app, available in 13 languages.
+Grammi is a free calorie counter app for iPhone, with an Apple Watch app, available in 13 languages.
 **No ads. No account.** The food diary is stored on the iPhone. It also works on **iPhone Duo**: it fills the outer display and the
 7.6-inch inner display, and adapts when you fold or unfold the phone.
 

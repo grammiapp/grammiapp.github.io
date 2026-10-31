@@ -1,6 +1,6 @@
 # Grammi
 
-> Grammi is a calorie counter app for iPhone (with an Apple Watch app), in 13 languages. Barcode scanning with no daily limit
+> Grammi is a free calorie counter app for iPhone (with an Apple Watch app), in 13 languages. Barcode scanning with no daily limit
 > and the food diary are free for good. No ads, no account; the diary stays on the iPhone. Grammi Pro is an optional subscription.
 
 App Store: https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&ct=llms&mt=8
@@ -28,6 +28,7 @@ Free, for good:
 - Export your diary as a spreadsheet (CSV) — it's your data
 - GLP-1 medication log for semaglutide, tirzepatide or liraglutide: a dose-day reminder, injection-site rotation and a two-tap daily note on appetite and side effects — a log only, never dose advice
 - Plants & fiber: a weekly card with how many different plants you ate, plus fiber and protein
+- Badges for logging, streaks, protein, water and more — Bronze is free
 - Calorie sense, the daily game: the same five foods for everyone, new every day — guess the calories and share your score
 - On iPhones with Apple Intelligence (iPhone 15 Pro or newer, iOS 26): recipes written for your goal, with nutrition calculated from the food database, not guessed
 
@@ -43,6 +44,7 @@ Grammi Pro (optional: a monthly or yearly subscription with a 7-day free trial, 
 - GLP-1 insights: your appetite on each day after a dose, and your weight with every dose change marked
 - Four more looks for the calorie counter: a fuel gauge, a plate of where your calories came from, 200-calorie bites and calories by meal
 - Plants & fiber over 30 and 90 days, and illustrated covers for recipes without a photo
+- Badges up to Diamond, a meal plan with a shopping list, and private progress photos
 - Family Sharing: one Yearly or Lifetime purchase covers up to six family members
 
 iPhone Duo: Yes. Grammi fills the whole screen on iPhone Duo, both the outer display and the 7.6-inch inner display, and its screens resize when you fold or unfold the phone.
@@ -93,6 +95,7 @@ iPhone Duo: Yes. Grammi fills the whole screen on iPhone Duo, both the outer dis
 - [How to move your food diary to a new calorie app](https://grammiapp.com/guides/move-food-diary-to-new-calorie-app.html): Switching calorie counters without losing your history: export a CSV from your old app and import it into Grammi. Meals and weigh-ins keep their dates.
 - [Calorie counter app with a game: train your eye for portion sizes](https://grammiapp.com/guides/calorie-counter-app-with-game.html): Grammi’s daily calorie guessing game: the same 5 foods for everyone, 4 answers each. A quick way to learn what a portion is worth, free in the app and in your browser.
 - [Track your GLP-1 shots and what you eat, free and with no account](https://grammiapp.com/guides/track-glp1-ozempic-mounjaro-doses-free.html): How to log Ozempic®, Wegovy®, Mounjaro® or Zepbound® doses, rotate injection sites, note appetite and side effects, and keep an eye on protein, all in one free iPhone app with no account.
+- [Calorie counter with badges, streaks and a meal plan](https://grammiapp.com/guides/calorie-counter-with-badges-and-meal-plan.html): Badges for logging, streaks, protein and water, a weekly page of what went well, and a meal plan with a shopping list: how they keep you counting, and what is free in Grammi.
 - Other languages: [Español](https://grammiapp.com/es/guias/) · [Deutsch](https://grammiapp.com/de/ratgeber/) · [Français](https://grammiapp.com/fr/guides/) · [Italiano](https://grammiapp.com/it/guide/) · [Português (Brasil)](https://grammiapp.com/pt-br/guias/) · [Türkçe](https://grammiapp.com/tr/rehberler/) · [日本語](https://grammiapp.com/ja/guides/) · [한국어](https://grammiapp.com/ko/guides/) · [Bahasa Indonesia](https://grammiapp.com/id/panduan/) · [Русский](https://grammiapp.com/ru/guides/) · [العربية](https://grammiapp.com/ar/guides/)
 
 ## Official accounts
