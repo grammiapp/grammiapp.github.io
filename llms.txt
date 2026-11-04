@@ -24,12 +24,12 @@ Free, for good:
 - Calories, protein, carbs and fat — plus fiber, sugar, saturated fat and sodium
 - Daily goals, a weight log with a 7-day average, water and streaks
 - Every chart for the last 7 days
-- Home Screen widget, Apple Watch app, Siri Shortcuts and Apple Health
+- Widgets in your colour and counter look, Control Center buttons, Apple Watch, Siri Shortcuts and Apple Health
 - Export your diary as a spreadsheet (CSV) — it's your data
 - GLP-1 medication log for semaglutide, tirzepatide or liraglutide: a dose-day reminder, injection-site rotation and a two-tap daily note on appetite and side effects — a log only, never dose advice
 - Plants & fiber: a weekly card with how many different plants you ate, plus fiber and protein
 - Badges for logging, streaks, protein, water and more — Bronze is free
-- Calorie sense, the daily game: the same five foods for everyone, new every day — guess the calories and share your score
+- Two daily food games, also on your Home Screen: Calorie sense (guess the calories) and Plate sort (12 foods, 4 hidden groups). Challenge friends, keep your streak with shields, and get a recap of your year every December
 - On iPhones with Apple Intelligence (iPhone 15 Pro or newer, iOS 26): recipes written for your goal, with nutrition calculated from the food database, not guessed
 
 Grammi Pro (optional: a monthly or yearly subscription with a 7-day free trial, or a one-time lifetime purchase):
@@ -43,6 +43,7 @@ Grammi Pro (optional: a monthly or yearly subscription with a 7-day free trial, 
 - Photograph a meal (iPhone 15 Pro or newer, iOS 27)
 - GLP-1 insights: your appetite on each day after a dose, and your weight with every dose change marked
 - Four more looks for the calorie counter: a fuel gauge, a plate of where your calories came from, 200-calorie bites and calories by meal
+- Widget buttons to add water or repeat a meal, and an iftar countdown on the Lock Screen
 - Plants & fiber over 30 and 90 days, and illustrated covers for recipes without a photo
 - Badges up to Diamond, a meal plan with a shopping list, and private progress photos
 - Family Sharing: one Yearly or Lifetime purchase covers up to six family members
