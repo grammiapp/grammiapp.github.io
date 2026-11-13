@@ -25,7 +25,7 @@ Free, for good:
 - Calories, protein, carbs and fat — plus fiber, sugar, saturated fat and sodium
 - Daily goals, a weight log with a 7-day average, water and streaks
 - Every chart for the last 7 days
-- Widgets in your colour and counter look, Control Center buttons, Apple Watch, Siri Shortcuts and Apple Health
+- Widgets in your colour and counter look, Control Center buttons and Apple Health
 - Export your diary as a spreadsheet (CSV) — it's your data
 - GLP-1 medication log for semaglutide, tirzepatide or liraglutide: a dose-day reminder, injection-site rotation and a two-tap daily note on appetite and side effects — a log only, never dose advice
 - Plants & fiber: a weekly card with how many different plants you ate, plus fiber and protein
@@ -34,14 +34,15 @@ Free, for good:
 - On iPhones with Apple Intelligence (iPhone 15 Pro or newer, iOS 26): recipes written for your goal, with nutrition calculated from the food database, not guessed
 
 Grammi Pro (optional: a monthly or yearly subscription with a 7-day free trial, or a one-time lifetime purchase):
+- Apple Watch, Siri Shortcuts and unlimited saved recipes (free keeps 3)
 - An adaptive target: your real burn rate, calculated from what you ate and how your weight actually moved — not a formula based on your age
 - Weekly challenges, personal records and Streak run: rounds of 5 back to back, counting your perfect rounds and correct answers in a row
-- 30- and 90-day charts, plus a chart builder
+- 30- and 90-day charts, a chart builder and a weekly report
 - Fasting timer and Ramadan mode: suhoor and iftar times calculated on your phone, offline
 - Macro planner with separate targets for training and rest days
 - Import recipes from a link and log food by voice
 - Vitamin and mineral report, suggestions for what fits the rest of your day, and app icons
-- Photograph a meal (iPhone 15 Pro or newer, iOS 27)
+- Photograph a meal: one dish on any iPhone, the whole plate on iPhone 15 Pro or newer (iOS 27)
 - GLP-1 insights: your appetite on each day after a dose, and your weight with every dose change marked
 - Four more looks for the calorie counter: a fuel gauge, a plate of where your calories came from, 200-calorie bites and calories by meal
 - Widget buttons to add water or repeat a meal, and an iftar countdown on the Lock Screen
