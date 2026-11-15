@@ -1,8 +1,15 @@
 open-food-facts-argentina.json
+open-food-facts-paket-tr.json (Turkey), open-food-facts-paket-ar.json (Argentina),
+open-food-facts-paket-br.json (Brazil), open-food-facts-paket-mx.json (Mexico)
 
 Contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available here under the
 Open Database License (ODbL) v1.0: https://opendatacommons.org/licenses/odbl/1-0/
 Individual contents of the database are available under the Database Contents License: https://opendatacommons.org/licenses/dbcl/1-0/
 
-This extract (57 products) is bundled in the Grammi iPhone app so that these barcodes work offline.
-Product names were shortened for display; nutrition values are unchanged.
+These extracts are bundled in the Grammi iPhone app so that packaged products can be searched offline.
+open-food-facts-argentina.json: 57 products (9 Oct 2026).
+open-food-facts-paket-*.json: products from the Open Food Facts data export of 14 Nov 2026, selected per country
+(branded, complete and consistent nutrition values, most scanned first, at most 60 per brand). Product names were
+cleaned for display (letter case, brand name in front); values are per 100 g (100 ml for drinks); obviously
+inconsistent values were dropped (sugar above carbohydrates, saturated fat above fat, sodium written in mg).
+These derived databases are released under the same ODbL v1.0 licence.
