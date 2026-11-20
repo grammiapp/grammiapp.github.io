@@ -1,12 +1,13 @@
 # Grammi
 
 > Grammi is a free calorie counter app for iPhone (with an Apple Watch app), in 13 languages. Barcode scanning with no daily limit
-> and the food diary are free for good. No ads, no account; the diary stays on the iPhone. Grammi Pro is an optional subscription.
+> and the food diary are free for good. No ads, no account, no subscription needed; the diary stays on the iPhone. Grammi Pro is optional extras.
 
 App Store: https://apps.apple.com/app/apple-store/id6815835582?pt=129503653&ct=llms&mt=8
 
 ## Facts
 - **Is Grammi free?** Yes. Barcode scanning with no daily limit and logging every meal (search, manual entry, daily totals) are free for good, along with goals, weight and water. Grammi Pro is optional: meal photos, an adapted calorie target, 30- and 90-day charts and a fasting timer, with a 7-day free trial.
+- **Do I need a subscription to use Grammi?** No. You never need a subscription to count calories with Grammi. Logging every meal, barcode scanning with no daily limit, goals, weight and water are free for good, with no trial that runs out and no ads. Grammi Pro is optional and only adds extras.
 - **Does Grammi have ads?** No. There are no ads in Grammi, on the free plan or on Pro.
 - **Do I need an account?** No. Open the app and start logging. Your food diary is stored on your iPhone, not in an account.
 - **Can I bring my history from another app?** Yes. Export a CSV file from your previous app and import it into Grammi; meals and weigh-ins keep their dates.
